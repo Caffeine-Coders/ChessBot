@@ -48,7 +48,6 @@ pieces = {
     'k': pygame.image.load('chess-utils/b_king.png'),
 }
 
-
 def UpdateBoard(screen, board):
     for i in range(64):
         piece = board.piece_at(i)
@@ -65,7 +64,7 @@ def UpdateBoard(screen, board):
     pygame.display.flip()
 
 
-def main(board):
+def main(board, AGENTCOLOR):
     '''
     for human vs human game
     '''
