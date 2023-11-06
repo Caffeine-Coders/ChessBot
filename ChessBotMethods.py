@@ -10,6 +10,7 @@ MIN-MAX USAGE
 
 pip install chess pygame
 '''
+from evaluationfunctions import *
 
 #after installing required packages.
 import pygame
@@ -63,7 +64,8 @@ def UpdateBoard(screen, board):
         pygame.draw.line(screen, WHITE, (i * 100, 0), (i * 100, 800))
 
     pygame.display.flip()
-
+def random_agent(BOARD, forcolor):
+    return most_value_agent(BOARD, forcolor)
 
 def main(board,agent_color):
     '''
@@ -89,7 +91,7 @@ def main(board,agent_color):
         UpdateBoard(screen, board)
         # print(board.turn)
         if board.turn==agent_color:
-            board.push(random.choice(list(board.legal_moves)))
+            board.push(random_agent(board, "black"))
             for i in range(8):
                 for j in range(8):
                     if (i + j) % 2 == 0:
@@ -166,4 +168,4 @@ def main(board,agent_color):
             print(board)
     pygame.quit()
 
-main(board,True)
+main(board,False)
