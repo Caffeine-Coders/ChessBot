@@ -50,16 +50,20 @@ def MinMax(BOARD):
         #black move ended
 
         forwhitemove = most_value_agent(temp, "white")
-        #white move ended
+        # white move ended
         temp.push(forwhitemove)
 
         fornextbackmove = most_value_agent(temp, "black")
         # next black move ended
         temp.push(fornextbackmove)
 
-        forlastwhitemove = most_value_agent(temp, "white")
-        #level 4 never fold
-        temp.push(forlastwhitemove)
+        fornextwhitemove = most_value_agent(temp, "white")
+        # level 4 never fold
+        temp.push(fornextwhitemove)
+
+        forlastblackmove = most_value_agent(temp, "Black")
+        # level 4 never fold
+        temp.push(forlastblackmove)
 
         scores.append(eval_board(temp))
 
