@@ -66,7 +66,7 @@ def UpdateBoard(screen, board):
 
     pygame.display.flip()
 def random_agent(BOARD):
-    return MinMax(BOARD)
+    return MinMaxroot(BOARD, 3, BOARD.turn)
 
 def main(board,agent_color):
     '''

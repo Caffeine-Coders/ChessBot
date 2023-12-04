@@ -69,10 +69,10 @@ Wkingeval= [
 
 #=======================================Black eval
 
-Bpawneval = Wpawneval[::-1]
-Bbishopeval = Wbishopeval[::-1]
-Brookeval = Wrookeval[::-1]
-Bkingeval = Wkingeval[::-1]
+Bpawneval =  [row[::-1] for row in reversed(Wpawneval)]
+Bbishopeval =   [row[::-1] for row in reversed(Wbishopeval)]
+Brookeval =   [row[::-1] for row in reversed(Wrookeval)]
+Bkingeval =   [row[::-1] for row in reversed(Wkingeval)]
 
 # print(Brookeval)
 
@@ -99,34 +99,32 @@ deathscoring= {'p': 10,
           'R': -50,
           'Q': -90,
           'K': -100,
-        'None': 0,
-        None:0
           }
 def getvalueof_piece(piece, x, y):
     if piece == "P":
-        return -10 + Wpawneval[y][x]
+        return 10 + Wpawneval[y][x]
     elif piece == "p":
-        return 10 + Bpawneval[y][x]
+        return -10 + Bpawneval[y][x]
     elif piece == "N":
-        return -30 + knighteval[y][x]
-    elif piece == "n":
         return 30 + knighteval[y][x]
+    elif piece == "n":
+        return -30 + knighteval[y][x]
     elif piece == "B":
-        return -30 + Wbishopeval[y][x]
+        return 30 + Wbishopeval[y][x]
     elif piece == "b":
-        return 30 + Bbishopeval[y][x]
+        return -30 + Bbishopeval[y][x]
     elif piece == "R":
-        return -50 + Wrookeval[y][x]
+        return 50 + Wrookeval[y][x]
     elif piece == "r":
-        return 50 + Brookeval[y][x]
+        return -50 + Brookeval[y][x]
     elif piece == "Q":
-        return -90 + Queeneval[y][x]
-    elif piece == "q":
         return 90 + Queeneval[y][x]
+    elif piece == "q":
+        return -90 + Queeneval[y][x]
     elif piece == "K":
-        return -100 + Wkingeval[y][x]
+        return 900 + Wkingeval[y][x]
     elif piece == "k":
-        return +100 + Bkingeval[y][x]
+        return -900 + Bkingeval[y][x]
 
 def fen_to_board(fen):
     board = {}
@@ -173,39 +171,54 @@ def mostvalueagent(BOARD):
     return best_move
 
 
-def MinMaxN(Board, N):
+def MinMaxroot(Board, N, ismaximizingplayer):
     moves = list(Board.legal_moves)
-    scores = []
+    best_movescore = float("-inf")
+    best_move_found = None
 
     for move in moves:
-        # now we make black move to check the future
-        temp = deepcopy(Board)
-        temp.push(move)
-        scoreofdeath = 0
+        Board.push(move)
+        value = MinMax(Board, N-1, float('-inf'), float('inf'), not ismaximizingplayer)
+        Board.pop()
 
-        if N>1:
-            temp_bestmove = MinMaxN(temp, N-1)
-            if temp_bestmove is None:
-                scores.append(0)
-                continue
-            temp.push(temp_bestmove)
+        if value >= best_movescore:
+            best_movescore = value
+            best_move_found = move
 
-        scores.append(evalboard(temp))
+    return best_move_found
 
-    if Board.turn == True:
-        if moves is None:
-            return
-        best_move = moves[scores.index(max(scores))]
+def MinMax(Board, N, alpha, beta, ismaximizingplayer):
+    if N == 0 or Board.is_game_over():
+        return -evalboard(Board)
+
+    moves = list(Board.legal_moves)
+
+    if not ismaximizingplayer:
+        best_movescore = float("-inf")
+
+        for move in moves:
+            Board.push(move)
+            best_movescore = max(best_movescore, MinMax(Board, N-1, alpha, beta, not ismaximizingplayer))
+            Board.pop()
+
+            alpha = max(alpha, best_movescore)
+
+            if beta <= alpha:
+                return best_movescore
+
+        return best_movescore
+
     else:
-        print(moves, scores)
-        if len(moves) == 0 and len(scores) == 0:
-            return
-        best_move = moves[scores.index(max(scores))]
+        best_movescore = float("inf")
 
-    return best_move
+        for move in moves:
+            Board.push(move)
+            best_movescore = min(best_movescore, MinMax(Board, N - 1, alpha, beta, not ismaximizingplayer))
+            Board.pop()
 
+            beta = min(beta, best_movescore)
 
+            if beta <= alpha:
+                return best_movescore
 
-
-def MinMax(board):
-    return MinMaxN(board, 3)
+        return best_movescore
