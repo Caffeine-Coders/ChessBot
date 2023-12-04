@@ -10,7 +10,8 @@ MIN-MAX USAGE
 
 pip install chess pygame
 '''
-from evaluationfunctions import *
+# from evaluationfunctions import *
+from bettereval import *
 
 #after installing required packages.
 import pygame
@@ -64,12 +65,12 @@ def UpdateBoard(screen, board):
         pygame.draw.line(screen, WHITE, (i * 100, 0), (i * 100, 800))
 
     pygame.display.flip()
-def random_agent(BOARD, forcolor):
+def random_agent(BOARD):
     return MinMax(BOARD)
 
 def main(board,agent_color):
     '''
-    for human vs human game
+    for bot vs human game
     '''
     # make background black
     for i in range(8):
@@ -85,19 +86,20 @@ def main(board,agent_color):
     # variable to be used later
     index_moves = []
 
-    status = True
+    status = True # white moves first
     while (status):
         # update screen
         UpdateBoard(screen, board)
-        # print(board.turn)
-        if board.turn==agent_color:
-            board.push(random_agent(board, "black"))
+        #bot work
+        if board.turn == agent_color:
+            board.push(random_agent(board))
             for i in range(8):
                 for j in range(8):
                     if (i + j) % 2 == 0:
                         pygame.draw.rect(screen, ALTERNATE_COLOR_1, pygame.Rect(i * 100, j * 100, 100, 100))
                     else:
                         pygame.draw.rect(screen, ALTERNATE_COLOR_2, pygame.Rect(i * 100, j * 100, 100, 100))
+        #human work
         else:
             for event in pygame.event.get():
 
