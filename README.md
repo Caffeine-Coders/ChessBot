@@ -58,10 +58,10 @@ Stockfish vs Bot game:
    Average number of moves over 50 games = 38.92 
 
 
-<a href= "screenshots/game_0_plot.png"></a>
+<img src = "screenshots/game_0_plot.png">
 
 ## PPT explanation of project
 
-please checkout out ppt of the project at : https://tinyurl.com/535project
+- please checkout out ppt of the project at : https://tinyurl.com/535project
 
 # conculsion
