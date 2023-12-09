@@ -48,9 +48,13 @@ lines of the code.
    python StockfishVSbot.py
 ## Limitations of RL
 Alphago Zero:
--
+- To implement Alphago Zero, we are lacking the computational power. Because, this algorithm self plays from both the sides and learn from each move, It will take months to train the basic model to beat the level 3 minimax.
+
 Q learning with reward based on final game result and a random opponent:
--
+- What we did try was to implement a Q-Learning model for almost 50000 iterations, where in reward was presented basing on the result of the game.
+- Opponent was a random agent, picking up random move out of all legal moves.
+- Our bot still couldn't come up with a better strategy than MinMax.
+
 Q learning with reward function, and a specific opponent:
 -
 
