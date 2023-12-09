@@ -63,8 +63,8 @@ Q learning with reward function, and a specific opponent:
 - - Maximum captures, max reward. 
 - - Uses Q Learning as technique.
 - Game based:
-- - Plays general rule based chess and learns from it.
-- - Uses Monte carlo search 
+  - Plays general rule based chess and learns from it.
+  - Uses Monte carlo search 
 - It was learning forever…….!
 
 
