@@ -1,40 +1,29 @@
 '''
-IT IS A CHESS BOT MADE USING AI PROJECT
-In this we will be working on a AI based chessbot which will initially made using AI concept called MIN-MAX.
-on 03/11/2023
-Task:
-
-Make a GUI of chess board where a player can play the game
-evalute the position on the board
-MIN-MAX USAGE
-
-pip install chess pygame
+============================================================== StockFish vs AI game work ===================================================================================
 '''
 import numpy as np
-from evaluationfunctions import *
+from EvaluationFunctions import *
 import chess.engine
-from bettereval import *
+from BetterEvaluationFunction import *
 
-#after installing required packages.
+# after installing required packages.
 import pygame
 import chess
 import math
 import matplotlib.pyplot as plt
 
-
-
-# initialise dispay
+# initialize display
 x = 800
 y = 800
-import random
 
-#color scheme
+# color scheme
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 HIGHLIGHT_COLOR = (0, 191, 255, 255)  # Light blue or cyan
 ALTERNATE_COLOR_1 = (118, 150, 86)
 ALTERNATE_COLOR_2 = (238, 238, 210)
 
+# Dictionary mapping piece symbols to corresponding image files
 pieces = {
     'P': pygame.image.load('chess-utils/w_pawn.png'),
     'N': pygame.image.load('chess-utils/w_horse.png'),
@@ -51,28 +40,36 @@ pieces = {
 }
 
 def analyze_moves(moves, gamenumber):
+    # Initialize a chess board for analysis
     board = chess.Board()
     scores = []
     i = 0
+
+    # Iterate through each move and evaluate the position after the move
     for move in moves:
         board.push(move)
+        # Evaluate the position based on the player's color
         if i % 2 == 0:
             scores.append(evalboard_colorbased(board, "white"))
         else:
             scores.append(abs(evalboard_colorbased(board, "black")))
-        i = i+1
+        i = i + 1
 
     print("Analysis completed.")
-    # print("score of board basing on each move: ", scores)
+
+    # Create a plot to visualize the scores for each move
     combined_moves = ["start", "start"] + [move.uci() for move in moves]
     combined_scores = [0, 0] + scores
-    fig, ax = plt.subplots(figsize=(26,13))
+
+    # Set up the plot
+    fig, ax = plt.subplots(figsize=(26, 13))
 
     # Plot moves with alternating positive and negative scores
     plt.plot(combined_moves, combined_scores, marker='o', linestyle='-', color='black')
 
+    # Highlight positive scores in green and negative scores in red
     for i, score in enumerate(combined_scores):
-        if i%2 == 0:
+        if i % 2 == 0:
             plt.scatter([combined_moves[i]], [combined_scores[i]], color='green', marker='o', s=500)
         else:
             plt.scatter([combined_moves[i]], [combined_scores[i]], color='red', marker='x', s=500)
@@ -82,51 +79,68 @@ def analyze_moves(moves, gamenumber):
     plt.ylabel("Move-based Score")
     plt.title(f'Game {gamenumber}: stockfish vs MinMax')
 
+    # Save the plot as an image
+    plt.savefig(f'screenshots/game_{gamenumber}_plot.png')
+
     # Show the plot
     plt.show()
 
-    directory_path = 'screenshots of 50 games/'
-    file_name = f'Game{gamenumber}.jpg'
-    file_path = directory_path + file_name
-    plt.savefig(file_path)
-
-
 
 def UpdateBoard(screen, board):
+    # Update the chessboard display based on the current board state
+
+    # Iterate through each square on the chessboard
     for i in range(64):
+        # Get the piece at the current square
         piece = board.piece_at(i)
-        if piece == None:
+
+        # If there is no piece at the square, do nothing
+        if piece is None:
             pass
         else:
+            # If there is a piece, blit (draw) the corresponding piece image on the screen
+            # Commented out to disable drawing pieces for now
             screen.blit(pieces[str(piece)], ((i % 8) * 100, 700 - (i // 8) * 100))
 
+    # Draw horizontal lines to separate the rows on the chessboard
     for i in range(7):
         i = i + 1
-        pygame.draw.line(screen,WHITE, (0, i * 100), (800, i * 100))
+        pygame.draw.line(screen, WHITE, (0, i * 100), (800, i * 100))
+
+    # Draw vertical lines to separate the columns on the chessboard
+    for i in range(7):
+        i = i + 1
         pygame.draw.line(screen, WHITE, (i * 100, 0), (i * 100, 800))
 
+    # Update the display to show the changes
     pygame.display.flip()
 
+
 def stockfish(BOARD, engine):
-    return engine.play(BOARD, chess.engine.Limit(time = 0.1)).move
+    # Function to get the move from the Stockfish engine
+    # Commented out to disable using Stockfish for now
+    return engine.play(BOARD, chess.engine.Limit(time=0.1)).move
+
 def random_agent1(BOARD):
+    # Function to get a move from the MinMax algorithm with fixed depth
+    # Commented out to disable using MinMax for now
     return MinMaxroot(BOARD, 3, BOARD.turn)
 
 def main(board, agent_color, gamenumber):
     screen = pygame.display.set_mode((x, y))
     pygame.init()
-    # initialize chessboard
+
+    # Initialize chess engine (Stockfish)
     engine = chess.engine.SimpleEngine.popen_uci(
         "C:\\Users\\anude\\Downloads\\stockfish-windows-x86-64-avx2\\stockfish\\stockfish-windows-x86-64-avx2.exe")
 
     analysis = engine.analysis(chess.Board(), chess.engine.Limit(depth=30))
     print("Analysis of stockfish", analysis)
 
-
     '''
-    for bot vs human game
+    for bot vs Stockfish game
     '''
-    # make background black
+    # Make background black
     for i in range(8):
         for j in range(8):
             if (i + j) % 2 == 0:
@@ -134,18 +148,20 @@ def main(board, agent_color, gamenumber):
             else:
                 pygame.draw.rect(screen, ALTERNATE_COLOR_2, pygame.Rect(i * 100, j * 100, 100, 100))
 
-    # name window
+    # Set window name
     pygame.display.set_caption('Chess')
 
-    # variable to be used later
+    # Variable to be used later
     index_moves = []
 
-    status = True # white moves first
-    while (status):
-        # update screen
+    status = True  # White moves first
+    while status:
+        # Update the screen
         UpdateBoard(screen, board)
-        #bot work
+
+        # Bot's move
         if board.turn == agent_color:
+            # Comment out the following line to disable the bot's move
             board.push(random_agent1(board))
             for i in range(8):
                 for j in range(8):
@@ -153,8 +169,9 @@ def main(board, agent_color, gamenumber):
                         pygame.draw.rect(screen, ALTERNATE_COLOR_1, pygame.Rect(i * 100, j * 100, 100, 100))
                     else:
                         pygame.draw.rect(screen, ALTERNATE_COLOR_2, pygame.Rect(i * 100, j * 100, 100, 100))
-        #human work
+        # Human's move
         else:
+            # Comment out the following line to disable Stockfish's move
             board.push(stockfish(board, engine))
             for i in range(8):
                 for j in range(8):
@@ -162,78 +179,23 @@ def main(board, agent_color, gamenumber):
                         pygame.draw.rect(screen, ALTERNATE_COLOR_1, pygame.Rect(i * 100, j * 100, 100, 100))
                     else:
                         pygame.draw.rect(screen, ALTERNATE_COLOR_2, pygame.Rect(i * 100, j * 100, 100, 100))
-            # for event in pygame.event.get():
-            #
-            #     # if event object type is QUIT
-            #     # then quitting the pygame
-            #     # and program both.
-            #     if event.type == pygame.QUIT:
-            #         status = False
-            #
-            #     # if mouse clicked
-            #     if event.type == pygame.MOUSEBUTTONDOWN:
-            #         # remove previous highlights
-            #         for i in range(8):
-            #             for j in range(8):
-            #                 if (i + j) % 2 == 0:
-            #                     pygame.draw.rect(screen, ALTERNATE_COLOR_1, pygame.Rect(i * 100, j * 100, 100, 100))
-            #                 else:
-            #                     pygame.draw.rect(screen, ALTERNATE_COLOR_2, pygame.Rect(i * 100, j * 100, 100, 100))
-            #
-            #         # get position of mouse
-            #         pos = pygame.mouse.get_pos()
-            #
-            #         # find which square was clicked and index of it
-            #         square = (math.floor(pos[0] / 100), math.floor(pos[1] / 100))
-            #         index = (7 - square[1]) * 8 + (square[0])
-            #         # pygame.display.flip()
-            #         # if we are moving a piece
-            #         if index in index_moves:
-            #
-            #             move = moves[index_moves.index(index)]
-            #
-            #             board.push(move)
-            #
-            #             # reset index and moves
-            #             index = None
-            #             index_moves = []
-            #
-            #
-            #         # show possible moves
-            #         else:
-            #             # check the square that is clicked
-            #             piece = board.piece_at(index)
-            #             # if empty pass
-            #             if piece == None:
-            #
-            #                 pass
-            #             else:
-            #
-            #                 # figure out what moves this piece can make
-            #                 all_moves = list(board.legal_moves)
-            #                 moves = []
-            #                 for m in all_moves:
-            #                     if m.from_square == index:
-            #                         moves.append(m)
-            #
-            #                         t = m.to_square
-            #                         TX1 = 100 * (t % 8)  # Center X of the square
-            #                         TY1 = 100 * (7 - t // 8)  # Center Y of the square
-            #
-            #                         # highlight squares it can move to
-            #                         pygame.draw.rect(screen, BLACK, pygame.Rect(TX1, TY1, 100, 100), 50)
-            #                 index_moves = [a.to_square for a in moves]
 
-        # deactivates the pygame library
-        if board.outcome() != None:
+        # Check if the game has ended
+        if board.outcome() is not None:
             print(board.outcome())
             status = False
             print(board)
             print("Number of legal moves:", len(board.move_stack))
-            print("move stack: ", board.move_stack)
+            print("Move stack: ", board.move_stack)
+
+            # Analyze and plot moves
             analyze_moves(board.move_stack, gamenumber)
-            return board.outcome().winner , len(board.move_stack)
+            return board.outcome().winner, len(board.move_stack)
+
+    # Quit pygame and the chess engine outside the loop
     pygame.quit()
     engine.quit()
 
-# main(board,False)
+# Example usage:
+board = chess.Board()
+main(board, False, 0)  # un Comment out this line, as it starts the human vs AI chess game

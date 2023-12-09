@@ -1,0 +1,760 @@
+C:\Python311\python.exe C:\Users\anude\OneDrive\Desktop\ChessBot\RunMultipleTimes.py
+pygame 2.5.2 (SDL 2.28.3, Python 3.11.3)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+
+Game 1 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F6968E77D0>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r n . Q k b r .
+. p . . p . . .
+. B p . P . p n
+p . . . N p . p
+. P P . . . . .
+. . . . . . . .
+. . . . B P P P
+R . . . . R K .
+Number of legal moves: 49
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('g1f3'), Move.from_uci('e5e6'), Move.from_uci('d2d4'), Move.from_uci('h7h5'), Move.from_uci('d4d5'), Move.from_uci('e6b6'), Move.from_uci('c1e3'), Move.from_uci('b6b2'), Move.from_uci('c3b5'), Move.from_uci('e8d8'), Move.from_uci('e3d4'), Move.from_uci('b2b4'), Move.from_uci('c2c3'), Move.from_uci('b4b2'), Move.from_uci('c3c4'), Move.from_uci('b2b4'), Move.from_uci('d4c3'), Move.from_uci('b4c5'), Move.from_uci('e1g1'), Move.from_uci('f7f5'), Move.from_uci('c3d4'), Move.from_uci('c5b4'), Move.from_uci('f3e5'), Move.from_uci('g8h6'), Move.from_uci('e5g6'), Move.from_uci('h8g8'), Move.from_uci('a2a3'), Move.from_uci('c7c6'), Move.from_uci('d4b6'), Move.from_uci('d8d7'), Move.from_uci('g6e5'), Move.from_uci('d7e8'), Move.from_uci('b5c7'), Move.from_uci('e8d8'), Move.from_uci('c7e6'), Move.from_uci('d8e8'), Move.from_uci('a3b4'), Move.from_uci('c8e6'), Move.from_uci('d5e6'), Move.from_uci('g7g6'), Move.from_uci('d1d8')]
+Analysis completed.
+
+Game 2 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F696863C10>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+. n b . . . n r
+r p N . k p p p
+. . . Q P . . .
+p . . . B . . .
+. . . . . . . .
+. . P . . . . .
+P . . . B P P P
+R . . . K . . R
+Number of legal moves: 31
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('d4d5'), Move.from_uci('e6e5'), Move.from_uci('g1f3'), Move.from_uci('e5h5'), Move.from_uci('c1f4'), Move.from_uci('e8d8'), Move.from_uci('c3b5'), Move.from_uci('d8d7'), Move.from_uci('f3e5'), Move.from_uci('h5e5'), Move.from_uci('f4e5'), Move.from_uci('e7e6'), Move.from_uci('b5c7'), Move.from_uci('f8b4'), Move.from_uci('c2c3'), Move.from_uci('b4c3'), Move.from_uci('b2c3'), Move.from_uci('a8a7'), Move.from_uci('d5e6'), Move.from_uci('d7e7'), Move.from_uci('d1d6')]
+Analysis completed.
+
+Game 3 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69AB32E50>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r n . . R k n .
+. . . . . . . .
+b b . . . . Q .
+p . . p . . B .
+p . . . . . . .
+. . P . . . . .
+. P B . . P P P
+R . . . . . K .
+Number of legal moves: 57
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('g1f3'), Move.from_uci('e5e6'), Move.from_uci('d2d4'), Move.from_uci('h7h5'), Move.from_uci('f3e5'), Move.from_uci('c7c6'), Move.from_uci('e2c4'), Move.from_uci('e6f5'), Move.from_uci('c4f7'), Move.from_uci('e8d8'), Move.from_uci('f7g6'), Move.from_uci('f5e6'), Move.from_uci('c3e4'), Move.from_uci('b7b5'), Move.from_uci('e4g5'), Move.from_uci('e6d5'), Move.from_uci('g6e4'), Move.from_uci('d5d6'), Move.from_uci('e5f7'), Move.from_uci('d8d7'), Move.from_uci('e1g1'), Move.from_uci('d6f6'), Move.from_uci('f7h8'), Move.from_uci('e7e6'), Move.from_uci('a2a4'), Move.from_uci('b5a4'), Move.from_uci('h8g6'), Move.from_uci('f8b4'), Move.from_uci('c2c3'), Move.from_uci('c8a6'), Move.from_uci('f1e1'), Move.from_uci('b4d6'), Move.from_uci('e4c2'), Move.from_uci('d6c7'), Move.from_uci('g5e6'), Move.from_uci('c7b6'), Move.from_uci('c1g5'), Move.from_uci('f6f7'), Move.from_uci('g6e5'), Move.from_uci('d7e6'), Move.from_uci('d4d5'), Move.from_uci('c6d5'), Move.from_uci('e5f7'), Move.from_uci('e6f7'), Move.from_uci('d1h5'), Move.from_uci('g7g6'), Move.from_uci('h5g6'), Move.from_uci('f7f8'), Move.from_uci('e1e8')]
+Analysis completed.
+
+Game 4 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69ADC2E50>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r n b Q k b n r
+. . . . p p p .
+. B p . . . . .
+p N . . . . . p
+. . P . . . . .
+. . . . . N . .
+q . . . B P P P
+. R . . K . . R
+Number of legal moves: 31
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('g1f3'), Move.from_uci('e5e6'), Move.from_uci('d2d4'), Move.from_uci('h7h5'), Move.from_uci('d4d5'), Move.from_uci('e6b6'), Move.from_uci('c1e3'), Move.from_uci('b6b2'), Move.from_uci('c3b5'), Move.from_uci('e8d8'), Move.from_uci('e3d4'), Move.from_uci('b2b4'), Move.from_uci('c2c3'), Move.from_uci('b4b2'), Move.from_uci('a1b1'), Move.from_uci('b2a2'), Move.from_uci('c3c4'), Move.from_uci('c7c5'), Move.from_uci('d5c6'), Move.from_uci('b7c6'), Move.from_uci('d4b6'), Move.from_uci('d8e8'), Move.from_uci('d1d8')]
+Analysis completed.
+
+Game 5 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69D5C6750>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r n k Q . b n r
+. p . . p p p .
+. B . . P . . .
+p . . . N . . p
+. . . . . . . .
+. . P . . . . .
+q . . . B P P P
+. R . . K . . R
+Number of legal moves: 33
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('g1f3'), Move.from_uci('e5e6'), Move.from_uci('d2d4'), Move.from_uci('h7h5'), Move.from_uci('d4d5'), Move.from_uci('e6b6'), Move.from_uci('c1e3'), Move.from_uci('b6b2'), Move.from_uci('c3b5'), Move.from_uci('e8d8'), Move.from_uci('e3d4'), Move.from_uci('b2b4'), Move.from_uci('c2c3'), Move.from_uci('b4b2'), Move.from_uci('f3e5'), Move.from_uci('c8e6'), Move.from_uci('d5e6'), Move.from_uci('d8c8'), Move.from_uci('a1b1'), Move.from_uci('b2a2'), Move.from_uci('b5c7'), Move.from_uci('c8c7'), Move.from_uci('d4b6'), Move.from_uci('c7c8'), Move.from_uci('d1d8')]
+Analysis completed.
+
+Game 6 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69F4AC850>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+. n b . k b n r
+. p N . p p . .
+. . . . . . . .
+p . . Q . . p p
+. . . . . . . .
+. . . . . N . .
+P P P . . P P P
+R . B . . R K .
+Number of legal moves: 27
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('g1f3'), Move.from_uci('h7h5'), Move.from_uci('e1g1'), Move.from_uci('e6c6'), Move.from_uci('e2b5'), Move.from_uci('g7g5'), Move.from_uci('d4d5'), Move.from_uci('c6b5'), Move.from_uci('c3b5'), Move.from_uci('c7c6'), Move.from_uci('b5c7'), Move.from_uci('e8d7'), Move.from_uci('c7a8'), Move.from_uci('c6d5'), Move.from_uci('d1d5'), Move.from_uci('d7e8'), Move.from_uci('a8c7')]
+Analysis completed.
+
+Game 7 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69F504250>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r n b . . . . r
+. p p k Q . . .
+. . . . . . . n
+p P . p . . . B
+. . . . . . . .
+P . . . . . . .
+. . . . . P P P
+R . . . R . K .
+Number of legal moves: 51
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('g1f3'), Move.from_uci('e5e6'), Move.from_uci('d2d4'), Move.from_uci('h7h5'), Move.from_uci('d4d5'), Move.from_uci('e6b6'), Move.from_uci('c1e3'), Move.from_uci('b6b2'), Move.from_uci('c3b5'), Move.from_uci('e8d8'), Move.from_uci('e3d4'), Move.from_uci('b2b4'), Move.from_uci('c2c3'), Move.from_uci('b4b2'), Move.from_uci('c3c4'), Move.from_uci('b2b4'), Move.from_uci('d4c3'), Move.from_uci('b4c5'), Move.from_uci('e1g1'), Move.from_uci('f7f5'), Move.from_uci('c3d4'), Move.from_uci('c5b4'), Move.from_uci('f3e5'), Move.from_uci('g8h6'), Move.from_uci('a2a3'), Move.from_uci('b4b5'), Move.from_uci('c4b5'), Move.from_uci('e7e6'), Move.from_uci('f1e1'), Move.from_uci('f8d6'), Move.from_uci('e2h5'), Move.from_uci('e6d5'), Move.from_uci('d1d2'), Move.from_uci('f5f4'), Move.from_uci('d2f4'), Move.from_uci('d6e5'), Move.from_uci('f4g5'), Move.from_uci('e5f6'), Move.from_uci('d4f6'), Move.from_uci('g7f6'), Move.from_uci('g5f6'), Move.from_uci('d8d7'), Move.from_uci('f6e7')]
+Analysis completed.
+
+Game 8 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F6A1071C10>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+. n b . k b n r
+. p N . p p . .
+. . . . . . . .
+p . . Q . . p p
+. . . . . . . .
+. . . . . N . .
+P P P . . P P P
+R . B . . R K .
+Number of legal moves: 27
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('g1f3'), Move.from_uci('h7h5'), Move.from_uci('e1g1'), Move.from_uci('e6c6'), Move.from_uci('e2b5'), Move.from_uci('g7g5'), Move.from_uci('d4d5'), Move.from_uci('c6b5'), Move.from_uci('c3b5'), Move.from_uci('c7c6'), Move.from_uci('b5c7'), Move.from_uci('e8d7'), Move.from_uci('c7a8'), Move.from_uci('c6d5'), Move.from_uci('d1d5'), Move.from_uci('d7e8'), Move.from_uci('a8c7')]
+Analysis completed.
+
+Game 9 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69D6B2E50>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r . k . Q b n r
+. p . . p . . .
+n . . . . . . .
+B . . . . . . p
+. . . P . p p .
+. . N . . . . .
+P P P . . P P P
+R . . . K . . R
+Number of legal moves: 31
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('c1f4'), Move.from_uci('h7h5'), Move.from_uci('f4c7'), Move.from_uci('b8a6'), Move.from_uci('c7a5'), Move.from_uci('g7g5'), Move.from_uci('g1f3'), Move.from_uci('g5g4'), Move.from_uci('f3e5'), Move.from_uci('f7f5'), Move.from_uci('e2b5'), Move.from_uci('c8d7'), Move.from_uci('b5d7'), Move.from_uci('e6d7'), Move.from_uci('e5d7'), Move.from_uci('e8d7'), Move.from_uci('d1e2'), Move.from_uci('f5f4'), Move.from_uci('e2b5'), Move.from_uci('d7c8'), Move.from_uci('b5e8')]
+Analysis completed.
+
+Game 10 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69D775350>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r . . . k . . .
+. p . . Q . . .
+n . . . p B . .
+p b . . . . . p
+. . . . . . . .
+. . P . . P . .
+P P . . . . P b
+. . . R K . . R
+Number of legal moves: 51
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('c1f4'), Move.from_uci('h7h5'), Move.from_uci('f4c7'), Move.from_uci('b8a6'), Move.from_uci('d4d5'), Move.from_uci('e6d7'), Move.from_uci('e2b5'), Move.from_uci('d7b5'), Move.from_uci('c3b5'), Move.from_uci('c8g4'), Move.from_uci('f2f3'), Move.from_uci('g4d7'), Move.from_uci('d1e2'), Move.from_uci('e7e6'), Move.from_uci('d5e6'), Move.from_uci('f7e6'), Move.from_uci('c7e5'), Move.from_uci('f8b4'), Move.from_uci('c2c3'), Move.from_uci('b4c5'), Move.from_uci('a1d1'), Move.from_uci('c5g1'), Move.from_uci('e2d3'), Move.from_uci('d7b5'), Move.from_uci('d3g6'), Move.from_uci('e8e7'), Move.from_uci('g6g7'), Move.from_uci('e7e8'), Move.from_uci('g7h8'), Move.from_uci('g1h2'), Move.from_uci('h8g8'), Move.from_uci('e8e7'), Move.from_uci('g8g7'), Move.from_uci('e7e8'), Move.from_uci('g7g6'), Move.from_uci('e8e7'), Move.from_uci('e5f6'), Move.from_uci('e7f8'), Move.from_uci('g6g7'), Move.from_uci('f8e8'), Move.from_uci('g7e7')]
+Analysis completed.
+
+Game 11 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69AE140D0>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+. n b k Q b n N
+r p N . p . . .
+. q . . . . . .
+p . . P B p p .
+. . . . . . . .
+. . . . . . . .
+P . . . B P P P
+. . R . . R K .
+Number of legal moves: 47
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('g1f3'), Move.from_uci('h7h5'), Move.from_uci('d4d5'), Move.from_uci('e6b6'), Move.from_uci('c1e3'), Move.from_uci('b6b2'), Move.from_uci('c3b5'), Move.from_uci('e8d8'), Move.from_uci('e3d4'), Move.from_uci('b2b4'), Move.from_uci('c2c3'), Move.from_uci('b4b2'), Move.from_uci('c3c4'), Move.from_uci('b2b4'), Move.from_uci('d4c3'), Move.from_uci('b4c5'), Move.from_uci('e1g1'), Move.from_uci('f7f5'), Move.from_uci('f3e5'), Move.from_uci('d8e8'), Move.from_uci('e2h5'), Move.from_uci('e8d8'), Move.from_uci('e5f7'), Move.from_uci('d8d7'), Move.from_uci('f7h8'), Move.from_uci('c5c4'), Move.from_uci('h5e2'), Move.from_uci('c4c5'), Move.from_uci('a1c1'), Move.from_uci('g7g5'), Move.from_uci('c3e5'), Move.from_uci('c5b6'), Move.from_uci('b5c7'), Move.from_uci('a8a7'), Move.from_uci('d1a4'), Move.from_uci('d7d8'), Move.from_uci('a4e8')]
+Analysis completed.
+
+Game 12 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69AE12DD0>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+. . b . . b n .
+. . . k . N . .
+n N r . . . . .
+p Q . . . p . p
+. . . P . B . .
+. . . . . . . .
+P P P . . P P P
+. . . . R R K .
+Number of legal moves: 39
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('g1f3'), Move.from_uci('e5e6'), Move.from_uci('d2d4'), Move.from_uci('h7h5'), Move.from_uci('c1f4'), Move.from_uci('f7f5'), Move.from_uci('e1g1'), Move.from_uci('e6c6'), Move.from_uci('e2b5'), Move.from_uci('g7g5'), Move.from_uci('f3g5'), Move.from_uci('e7e5'), Move.from_uci('f4e5'), Move.from_uci('c6b5'), Move.from_uci('c3b5'), Move.from_uci('h8h6'), Move.from_uci('b5c7'), Move.from_uci('e8d7'), Move.from_uci('c7a8'), Move.from_uci('b8a6'), Move.from_uci('d1d3'), Move.from_uci('d7e7'), Move.from_uci('a1e1'), Move.from_uci('b7b6'), Move.from_uci('e5f4'), Move.from_uci('e7d8'), Move.from_uci('g5f7'), Move.from_uci('d8d7'), Move.from_uci('d3b5'), Move.from_uci('h6c6'), Move.from_uci('a8b6')]
+Analysis completed.
+
+Game 13 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69ADFA090>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r n . . . b n N
+. p p . k Q . p
+. . . . . . p .
+p . . . . . . .
+. . . . . B b .
+. . N . . . . .
+P P P . . P P P
+. . K R . . . R
+Number of legal moves: 35
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('d4d5'), Move.from_uci('e6e5'), Move.from_uci('g1f3'), Move.from_uci('e5h5'), Move.from_uci('c1f4'), Move.from_uci('e8d8'), Move.from_uci('f3g5'), Move.from_uci('h5g6'), Move.from_uci('e2h5'), Move.from_uci('g6f5'), Move.from_uci('g5f7'), Move.from_uci('d8d7'), Move.from_uci('h5g4'), Move.from_uci('e7e6'), Move.from_uci('d5e6'), Move.from_uci('d7e6'), Move.from_uci('f7h8'), Move.from_uci('g7g6'), Move.from_uci('d1d5'), Move.from_uci('e6e7'), Move.from_uci('g4f5'), Move.from_uci('c8f5'), Move.from_uci('e1c1'), Move.from_uci('f5g4'), Move.from_uci('d5f7')]
+Analysis completed.
+
+Game 14 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69C946E10>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+. n b k Q b n N
+r p N . p . . .
+. q . . . . . .
+p . . P B p p .
+. . . . . . . .
+. . . . . . . .
+P . . . B P P P
+. . R . . R K .
+Number of legal moves: 51
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('g1f3'), Move.from_uci('h7h5'), Move.from_uci('d4d5'), Move.from_uci('e6b6'), Move.from_uci('c1e3'), Move.from_uci('b6b2'), Move.from_uci('c3b5'), Move.from_uci('e8d8'), Move.from_uci('e3d4'), Move.from_uci('b2b4'), Move.from_uci('c2c3'), Move.from_uci('b4b2'), Move.from_uci('c3c4'), Move.from_uci('b2b4'), Move.from_uci('d4c3'), Move.from_uci('b4c5'), Move.from_uci('e1g1'), Move.from_uci('f7f5'), Move.from_uci('f3e5'), Move.from_uci('d8e8'), Move.from_uci('e2h5'), Move.from_uci('e8d8'), Move.from_uci('e5f7'), Move.from_uci('d8d7'), Move.from_uci('f7e5'), Move.from_uci('d7d8'), Move.from_uci('e5f7'), Move.from_uci('d8d7'), Move.from_uci('f7h8'), Move.from_uci('c5c4'), Move.from_uci('h5e2'), Move.from_uci('c4c5'), Move.from_uci('a1c1'), Move.from_uci('g7g5'), Move.from_uci('c3e5'), Move.from_uci('c5b6'), Move.from_uci('b5c7'), Move.from_uci('a8a7'), Move.from_uci('d1a4'), Move.from_uci('d7d8'), Move.from_uci('a4e8')]
+Analysis completed.
+
+Game 15 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F696AA08D0>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r . k . Q b n r
+. p . . p . . .
+n . . . . . . .
+B . . . . . . p
+. . . P . p p .
+. . N . . . . .
+P P P . . P P P
+R . . . K . . R
+Number of legal moves: 31
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('c1f4'), Move.from_uci('h7h5'), Move.from_uci('f4c7'), Move.from_uci('b8a6'), Move.from_uci('c7a5'), Move.from_uci('g7g5'), Move.from_uci('g1f3'), Move.from_uci('g5g4'), Move.from_uci('f3e5'), Move.from_uci('f7f5'), Move.from_uci('e2b5'), Move.from_uci('c8d7'), Move.from_uci('b5d7'), Move.from_uci('e6d7'), Move.from_uci('e5d7'), Move.from_uci('e8d7'), Move.from_uci('d1e2'), Move.from_uci('f5f4'), Move.from_uci('e2b5'), Move.from_uci('d7c8'), Move.from_uci('b5e8')]
+Analysis completed.
+
+Game 16 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69ACA7610>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r . k . Q b n r
+. p . . p . . .
+n . . . . . . .
+B . . . . . . p
+. . . P . p p .
+. . N . . . . .
+P P P . . P P P
+R . . . K . . R
+Number of legal moves: 31
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('c1f4'), Move.from_uci('h7h5'), Move.from_uci('f4c7'), Move.from_uci('b8a6'), Move.from_uci('c7a5'), Move.from_uci('g7g5'), Move.from_uci('g1f3'), Move.from_uci('g5g4'), Move.from_uci('f3e5'), Move.from_uci('f7f5'), Move.from_uci('e2b5'), Move.from_uci('c8d7'), Move.from_uci('b5d7'), Move.from_uci('e6d7'), Move.from_uci('e5d7'), Move.from_uci('e8d7'), Move.from_uci('d1e2'), Move.from_uci('f5f4'), Move.from_uci('e2b5'), Move.from_uci('d7c8'), Move.from_uci('b5e8')]
+Analysis completed.
+
+Game 17 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69AE2AE50>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r n . Q k . n r
+. . p . . p . p
+. . . . . . . .
+p . . . . . B .
+. . . . . . . .
+. . P . . b . .
+P . . . . P P P
+R . . . K . . R
+Number of legal moves: 29
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('g1f3'), Move.from_uci('d5e4'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('b1c3'), Move.from_uci('e4c6'), Move.from_uci('e2b5'), Move.from_uci('g7g5'), Move.from_uci('b5c6'), Move.from_uci('b7c6'), Move.from_uci('d2d4'), Move.from_uci('c8g4'), Move.from_uci('c1g5'), Move.from_uci('e7e6'), Move.from_uci('d4d5'), Move.from_uci('c6d5'), Move.from_uci('c3d5'), Move.from_uci('e6d5'), Move.from_uci('d1d5'), Move.from_uci('f8b4'), Move.from_uci('c2c3'), Move.from_uci('b4c3'), Move.from_uci('b2c3'), Move.from_uci('g4f3'), Move.from_uci('d5d8')]
+Analysis completed.
+
+Game 18 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69AD74150>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r n b k . b n N
+. p B . . Q . p
+. . . . . . . .
+p . . . . p . .
+. . . . . . . .
+. . N . . . . .
+P P P . . P P P
+R . . . K . . R
+Number of legal moves: 35
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('d4d5'), Move.from_uci('e6e5'), Move.from_uci('g1f3'), Move.from_uci('e5h5'), Move.from_uci('c1f4'), Move.from_uci('e8d8'), Move.from_uci('f3g5'), Move.from_uci('h5g6'), Move.from_uci('e2h5'), Move.from_uci('g6f5'), Move.from_uci('g5f7'), Move.from_uci('d8d7'), Move.from_uci('h5g4'), Move.from_uci('e7e6'), Move.from_uci('d5e6'), Move.from_uci('d7e6'), Move.from_uci('f7h8'), Move.from_uci('g7g6'), Move.from_uci('g4f5'), Move.from_uci('g6f5'), Move.from_uci('d1d5'), Move.from_uci('e6e7'), Move.from_uci('d5f7'), Move.from_uci('e7d8'), Move.from_uci('f4c7')]
+Analysis completed.
+
+Game 19 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F697DB2850>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+N n b . . b n r
+. p . . p p p p
+. . . . . . . .
+p . . . N . . .
+. k . . . . . .
+. . P . B . . .
+P P . . B P q P
+R . . Q K . . R
+Number of legal moves: 25
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('c3b5'), Move.from_uci('c7c5'), Move.from_uci('g1f3'), Move.from_uci('e5f4'), Move.from_uci('d2d4'), Move.from_uci('f4g4'), Move.from_uci('b5c7'), Move.from_uci('e8d7'), Move.from_uci('c7a8'), Move.from_uci('g4g2'), Move.from_uci('d4c5'), Move.from_uci('d7c6'), Move.from_uci('f3e5'), Move.from_uci('c6c5'), Move.from_uci('c1e3'), Move.from_uci('c5b4'), Move.from_uci('c2c3')]
+Analysis completed.
+
+Game 20 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F6A0317610>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+. n b k . b n .
+r p N . p N . .
+. . . . . . . .
+p B . P B p p .
+. . . . . . . .
+q . . . . . . .
+P . . . . P P P
+. . R Q . R K .
+Number of legal moves: 51
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('g1f3'), Move.from_uci('e5e6'), Move.from_uci('d2d4'), Move.from_uci('h7h5'), Move.from_uci('d4d5'), Move.from_uci('e6b6'), Move.from_uci('c1e3'), Move.from_uci('b6b2'), Move.from_uci('c3b5'), Move.from_uci('e8d8'), Move.from_uci('e3d4'), Move.from_uci('b2b4'), Move.from_uci('c2c3'), Move.from_uci('b4b2'), Move.from_uci('c3c4'), Move.from_uci('b2b4'), Move.from_uci('d4c3'), Move.from_uci('b4c5'), Move.from_uci('e1g1'), Move.from_uci('f7f5'), Move.from_uci('f3e5'), Move.from_uci('d8e8'), Move.from_uci('e2h5'), Move.from_uci('e8d8'), Move.from_uci('e5f7'), Move.from_uci('d8d7'), Move.from_uci('f7e5'), Move.from_uci('d7d8'), Move.from_uci('e5f7'), Move.from_uci('d8d7'), Move.from_uci('f7h8'), Move.from_uci('c5c4'), Move.from_uci('h5e2'), Move.from_uci('c4c5'), Move.from_uci('c3e5'), Move.from_uci('g7g5'), Move.from_uci('b5c7'), Move.from_uci('a8a7'), Move.from_uci('a1c1'), Move.from_uci('c5a3'), Move.from_uci('e2b5'), Move.from_uci('d7d8'), Move.from_uci('h8f7')]
+Analysis completed.
+
+Game 21 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F6A0352550>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r n . . k . n r
+. . . . b . . .
+. . p . N p Q .
+. . . . . . . .
+p . . . . B . .
+. . . . . . . .
+P P P . . P P .
+. . . R . R K .
+Number of legal moves: 47
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('g1f3'), Move.from_uci('d5e4'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('b1c3'), Move.from_uci('e4c6'), Move.from_uci('e2b5'), Move.from_uci('g7g5'), Move.from_uci('b5c6'), Move.from_uci('b7c6'), Move.from_uci('d2d4'), Move.from_uci('c8g4'), Move.from_uci('e1g1'), Move.from_uci('h7h5'), Move.from_uci('c1g5'), Move.from_uci('e7e6'), Move.from_uci('h2h3'), Move.from_uci('g4f5'), Move.from_uci('d4d5'), Move.from_uci('c6d5'), Move.from_uci('c3d5'), Move.from_uci('e6d5'), Move.from_uci('d1d5'), Move.from_uci('f7f6'), Move.from_uci('a1e1'), Move.from_uci('f8e7'), Move.from_uci('g5f4'), Move.from_uci('f5g4'), Move.from_uci('h3g4'), Move.from_uci('c7c6'), Move.from_uci('d5e4'), Move.from_uci('h5g4'), Move.from_uci('f3d4'), Move.from_uci('a5a4'), Move.from_uci('e4g6'), Move.from_uci('e8d7'), Move.from_uci('g6g4'), Move.from_uci('d7d8'), Move.from_uci('d4e6'), Move.from_uci('d8d7'), Move.from_uci('e1d1'), Move.from_uci('d7e8'), Move.from_uci('g4g6')]
+Analysis completed.
+
+Game 22 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F6A107E690>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r n . . . . r .
+. . p . . . . p
+. . p k Q . . n
+. . . . . . . .
+p . . P . . . .
+. . . . . . . P
+P P P . . P P .
+. . K R R . . .
+Number of legal moves: 37
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('g1f3'), Move.from_uci('d5e4'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('b1c3'), Move.from_uci('e4c6'), Move.from_uci('e2b5'), Move.from_uci('g7g5'), Move.from_uci('b5c6'), Move.from_uci('b7c6'), Move.from_uci('f3g5'), Move.from_uci('c8f5'), Move.from_uci('d2d3'), Move.from_uci('f8h6'), Move.from_uci('h2h3'), Move.from_uci('e7e5'), Move.from_uci('g5f7'), Move.from_uci('e8f7'), Move.from_uci('c1h6'), Move.from_uci('g8h6'), Move.from_uci('d1f3'), Move.from_uci('f7e6'), Move.from_uci('e1c1'), Move.from_uci('h8g8'), Move.from_uci('h1e1'), Move.from_uci('a5a4'), Move.from_uci('d3d4'), Move.from_uci('e5e4'), Move.from_uci('c3e4'), Move.from_uci('f5e4'), Move.from_uci('f3e4'), Move.from_uci('e6d6'), Move.from_uci('e4e6')]
+Analysis completed.
+
+Game 23 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F6A106BDD0>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+. . . . . . . .
+. . . . . . . .
+Q . . . . . . P
+. . . k . . . R
+. . . . . . . .
+. . . P . P . .
+. B P . . P . .
+R . . . K . . .
+Number of legal moves: 81
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('g1f3'), Move.from_uci('d5e4'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('b1c3'), Move.from_uci('e4c6'), Move.from_uci('e2b5'), Move.from_uci('g7g5'), Move.from_uci('f3e5'), Move.from_uci('h7h5'), Move.from_uci('d1f3'), Move.from_uci('f7f5'), Move.from_uci('e5c6'), Move.from_uci('b7c6'), Move.from_uci('b5c6'), Move.from_uci('b8c6'), Move.from_uci('f3c6'), Move.from_uci('e8d8'), Move.from_uci('c6d5'), Move.from_uci('d8e8'), Move.from_uci('d5a8'), Move.from_uci('e8d7'), Move.from_uci('a8a5'), Move.from_uci('e7e6'), Move.from_uci('c3b5'), Move.from_uci('c7c5'), Move.from_uci('a5c7'), Move.from_uci('d7e8'), Move.from_uci('c7c8'), Move.from_uci('e8f7'), Move.from_uci('b5c7'), Move.from_uci('h8h6'), Move.from_uci('c8e8'), Move.from_uci('f7g7'), Move.from_uci('c7e6'), Move.from_uci('h6e6'), Move.from_uci('e8e6'), Move.from_uci('f5f4'), Move.from_uci('e6e5'), Move.from_uci('g7g6'), Move.from_uci('e5h8'), Move.from_uci('g6f7'), Move.from_uci('h8h7'), Move.from_uci('f8g7'), Move.from_uci('h7h5'), Move.from_uci('f7f8'), Move.from_uci('h5g5'), Move.from_uci('f4f3'), Move.from_uci('g5c5'), Move.from_uci('g8e7'), Move.from_uci('g2f3'), Move.from_uci('g7f6'), Move.from_uci('c5e7'), Move.from_uci('f8e7'), Move.from_uci('a2a4'), Move.from_uci('f6e5'), Move.from_uci('d2d3'), Move.from_uci('e7d6'), Move.from_uci('h2h4'), Move.from_uci('d6e6'), Move.from_uci('a4a5'), Move.from_uci('e5d4'), Move.from_uci('h4h5'), Move.from_uci('e6d7'), Move.from_uci('a5a6'), Move.from_uci('d7e6'), Move.from_uci('h5h6'), Move.from_uci('e6d7'), Move.from_uci('a6a7'), Move.from_uci('d4b2'), Move.from_uci('c1b2'), Move.from_uci('d7c6'), Move.from_uci('a7a8q'), Move.from_uci('c6c5'), Move.from_uci('a8a6'), Move.from_uci('c5d5'), Move.from_uci('h1h5')]
+Analysis completed.
+
+Game 24 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F6A112A810>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r n k Q . b r .
+. p p . . . p .
+. . . . b B N n
+p P . . . p . p
+. . . . . . . .
+P . . . . . . .
+. . . . B P P P
+R . . . . R K .
+Number of legal moves: 43
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('g1f3'), Move.from_uci('e5e6'), Move.from_uci('d2d4'), Move.from_uci('h7h5'), Move.from_uci('d4d5'), Move.from_uci('e6b6'), Move.from_uci('c1e3'), Move.from_uci('b6b2'), Move.from_uci('c3b5'), Move.from_uci('e8d8'), Move.from_uci('e3d4'), Move.from_uci('b2b4'), Move.from_uci('c2c3'), Move.from_uci('b4b2'), Move.from_uci('c3c4'), Move.from_uci('b2b4'), Move.from_uci('d4c3'), Move.from_uci('b4c5'), Move.from_uci('e1g1'), Move.from_uci('f7f5'), Move.from_uci('c3d4'), Move.from_uci('c5b4'), Move.from_uci('f3e5'), Move.from_uci('g8h6'), Move.from_uci('a2a3'), Move.from_uci('b4b5'), Move.from_uci('c4b5'), Move.from_uci('e7e6'), Move.from_uci('d5e6'), Move.from_uci('c8e6'), Move.from_uci('e5g6'), Move.from_uci('h8g8'), Move.from_uci('d4f6'), Move.from_uci('d8c8'), Move.from_uci('d1d8')]
+Analysis completed.
+
+Game 25 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F6A10CB990>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r . k . Q b n r
+. p . . p . . .
+n . . . . . . .
+B . . . . . . p
+. . . P . p p .
+. . N . . . . .
+P P P . . P P P
+R . . . K . . R
+Number of legal moves: 31
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('c1f4'), Move.from_uci('h7h5'), Move.from_uci('f4c7'), Move.from_uci('b8a6'), Move.from_uci('c7a5'), Move.from_uci('g7g5'), Move.from_uci('g1f3'), Move.from_uci('g5g4'), Move.from_uci('f3e5'), Move.from_uci('f7f5'), Move.from_uci('e2b5'), Move.from_uci('c8d7'), Move.from_uci('b5d7'), Move.from_uci('e6d7'), Move.from_uci('e5d7'), Move.from_uci('e8d7'), Move.from_uci('d1e2'), Move.from_uci('f5f4'), Move.from_uci('e2b5'), Move.from_uci('d7c8'), Move.from_uci('b5e8')]
+Analysis completed.
+
+Game 26 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F6A1121850>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r n . . . b n .
+. . . . p . . .
+. N p . . . p .
+p . . k . . . p
+. p . . . B . .
+. . . B Q . . .
+P P P . . . P P
+R . . . . R K .
+Number of legal moves: 49
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('g1f3'), Move.from_uci('h7h5'), Move.from_uci('f3e5'), Move.from_uci('c7c6'), Move.from_uci('e2c4'), Move.from_uci('e6f5'), Move.from_uci('c4f7'), Move.from_uci('e8d8'), Move.from_uci('f7g6'), Move.from_uci('f5e6'), Move.from_uci('e1g1'), Move.from_uci('b7b5'), Move.from_uci('e5f7'), Move.from_uci('d8d7'), Move.from_uci('f7h8'), Move.from_uci('b5b4'), Move.from_uci('c3e4'), Move.from_uci('d7d8'), Move.from_uci('e4c5'), Move.from_uci('e6c4'), Move.from_uci('h8f7'), Move.from_uci('d8c7'), Move.from_uci('c1f4'), Move.from_uci('c7b6'), Move.from_uci('f7e5'), Move.from_uci('c4b5'), Move.from_uci('g6d3'), Move.from_uci('c8g4'), Move.from_uci('f2f3'), Move.from_uci('g4f3'), Move.from_uci('d1f3'), Move.from_uci('b5c5'), Move.from_uci('d4c5'), Move.from_uci('b6c5'), Move.from_uci('f3e3'), Move.from_uci('c5d5'), Move.from_uci('e5c4'), Move.from_uci('g7g6'), Move.from_uci('c4b6')]
+Analysis completed.
+
+Game 27 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F697F8AE50>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r n b . k b n r
+. . N . p p p .
+. B p . . . . .
+p . . . . . . p
+. . P . . . . .
+. . . . . N . .
+q . . . B P P P
+. R . Q K . . R
+Number of legal moves: 31
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('g1f3'), Move.from_uci('h7h5'), Move.from_uci('d4d5'), Move.from_uci('e6b6'), Move.from_uci('c1e3'), Move.from_uci('b6b2'), Move.from_uci('c3b5'), Move.from_uci('e8d8'), Move.from_uci('e3d4'), Move.from_uci('b2b4'), Move.from_uci('c2c3'), Move.from_uci('b4b2'), Move.from_uci('a1b1'), Move.from_uci('b2a2'), Move.from_uci('c3c4'), Move.from_uci('c7c5'), Move.from_uci('d5c6'), Move.from_uci('b7c6'), Move.from_uci('d4b6'), Move.from_uci('d8e8'), Move.from_uci('b5c7')]
+Analysis completed.
+
+Game 28 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F697CB2E50>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r n Q . . b n .
+. . k . p . p .
+. . p N . . . .
+p . . . . . . .
+N p . P . B . .
+. . . . . . . .
+P P P . . P P P
+R . . . . R K .
+Number of legal moves: 45
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('g1f3'), Move.from_uci('h7h5'), Move.from_uci('f3e5'), Move.from_uci('c7c6'), Move.from_uci('e2c4'), Move.from_uci('e6f5'), Move.from_uci('c4f7'), Move.from_uci('e8d8'), Move.from_uci('f7g6'), Move.from_uci('f5e6'), Move.from_uci('e1g1'), Move.from_uci('b7b5'), Move.from_uci('e5f7'), Move.from_uci('d8d7'), Move.from_uci('f7h8'), Move.from_uci('b5b4'), Move.from_uci('c3a4'), Move.from_uci('d7d8'), Move.from_uci('h8f7'), Move.from_uci('d8c7'), Move.from_uci('c1f4'), Move.from_uci('c7d7'), Move.from_uci('d1h5'), Move.from_uci('d7e8'), Move.from_uci('f7g5'), Move.from_uci('e6g6'), Move.from_uci('h5g6'), Move.from_uci('e8d8'), Move.from_uci('g5f7'), Move.from_uci('d8e8'), Move.from_uci('f7d6'), Move.from_uci('e8d8'), Move.from_uci('g6e8'), Move.from_uci('d8c7'), Move.from_uci('e8c8')]
+Analysis completed.
+
+Game 29 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69AD4C0D0>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r . k . Q b n r
+. p . . p . . .
+n . . . . . . .
+B . . . . . . p
+. . . P . p p .
+. . N . . . . .
+P P P . . P P P
+R . . . K . . R
+Number of legal moves: 31
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('c1f4'), Move.from_uci('h7h5'), Move.from_uci('f4c7'), Move.from_uci('b8a6'), Move.from_uci('c7a5'), Move.from_uci('g7g5'), Move.from_uci('g1f3'), Move.from_uci('g5g4'), Move.from_uci('f3e5'), Move.from_uci('f7f5'), Move.from_uci('e2b5'), Move.from_uci('c8d7'), Move.from_uci('b5d7'), Move.from_uci('e6d7'), Move.from_uci('e5d7'), Move.from_uci('e8d7'), Move.from_uci('d1e2'), Move.from_uci('f5f4'), Move.from_uci('e2b5'), Move.from_uci('d7c8'), Move.from_uci('b5e8')]
+Analysis completed.
+
+Game 30 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69AE1C210>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+. n b . k b n r
+. p N . p p . .
+. . . . . . . .
+p . . Q . . p p
+. . . . . . . .
+. . . . . N . .
+P P P . . P P P
+R . B . . R K .
+Number of legal moves: 27
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('g1f3'), Move.from_uci('h7h5'), Move.from_uci('e1g1'), Move.from_uci('e6c6'), Move.from_uci('e2b5'), Move.from_uci('g7g5'), Move.from_uci('d4d5'), Move.from_uci('c6b5'), Move.from_uci('c3b5'), Move.from_uci('c7c6'), Move.from_uci('b5c7'), Move.from_uci('e8d7'), Move.from_uci('c7a8'), Move.from_uci('c6d5'), Move.from_uci('d1d5'), Move.from_uci('d7e8'), Move.from_uci('a8c7')]
+Analysis completed.
+
+Game 31 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F697D214D0>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r n b . k . n N
+. p . . . . . .
+. . . Q . . . .
+p P . . . p p B
+. . . . . . . .
+P . . . . . . .
+. . . . . P P P
+. . . R . R K .
+Number of legal moves: 53
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('g1f3'), Move.from_uci('e5e6'), Move.from_uci('d2d4'), Move.from_uci('h7h5'), Move.from_uci('d4d5'), Move.from_uci('e6b6'), Move.from_uci('c1e3'), Move.from_uci('b6b2'), Move.from_uci('c3b5'), Move.from_uci('e8d8'), Move.from_uci('e3d4'), Move.from_uci('b2b4'), Move.from_uci('c2c3'), Move.from_uci('b4b2'), Move.from_uci('c3c4'), Move.from_uci('b2b4'), Move.from_uci('d4c3'), Move.from_uci('b4c5'), Move.from_uci('c3d4'), Move.from_uci('c5b4'), Move.from_uci('d4c3'), Move.from_uci('b4c5'), Move.from_uci('e1g1'), Move.from_uci('f7f5'), Move.from_uci('c3d4'), Move.from_uci('c5b4'), Move.from_uci('a2a3'), Move.from_uci('b4b5'), Move.from_uci('c4b5'), Move.from_uci('e7e6'), Move.from_uci('f3g5'), Move.from_uci('e6d5'), Move.from_uci('g5f7'), Move.from_uci('d8d7'), Move.from_uci('f7h8'), Move.from_uci('c7c5'), Move.from_uci('d4c5'), Move.from_uci('f8c5'), Move.from_uci('d1d5'), Move.from_uci('c5d6'), Move.from_uci('a1d1'), Move.from_uci('g7g5'), Move.from_uci('d5d6'), Move.from_uci('d7e8'), Move.from_uci('e2h5')]
+Analysis completed.
+
+Game 32 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69C97D790>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r n b k . b n N
+. p B . . Q . p
+. . . . . . . .
+p . . . . p . .
+. . . . . . . .
+. . N . . . . .
+P P P . . P P P
+R . . . K . . R
+Number of legal moves: 35
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('d4d5'), Move.from_uci('e6e5'), Move.from_uci('g1f3'), Move.from_uci('e5h5'), Move.from_uci('c1f4'), Move.from_uci('e8d8'), Move.from_uci('f3g5'), Move.from_uci('h5g6'), Move.from_uci('e2h5'), Move.from_uci('g6f5'), Move.from_uci('g5f7'), Move.from_uci('d8d7'), Move.from_uci('h5g4'), Move.from_uci('e7e6'), Move.from_uci('d5e6'), Move.from_uci('d7e6'), Move.from_uci('f7h8'), Move.from_uci('g7g6'), Move.from_uci('g4f5'), Move.from_uci('g6f5'), Move.from_uci('d1d5'), Move.from_uci('e6e7'), Move.from_uci('d5f7'), Move.from_uci('e7d8'), Move.from_uci('f4c7')]
+Analysis completed.
+
+Game 33 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69AD06CD0>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+. n b . k b n r
+. p N . p p . p
+. . . . . . . .
+p . . Q . . p .
+. . . . . . . .
+. . . . . . . .
+P P P . . P P P
+R . B . K . N R
+Number of legal moves: 21
+move stack:  [Move.from_uci('d2d4'), Move.from_uci('a7a5'), Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5c6'), Move.from_uci('f1b5'), Move.from_uci('g7g5'), Move.from_uci('d4d5'), Move.from_uci('c6b5'), Move.from_uci('c3b5'), Move.from_uci('c7c6'), Move.from_uci('b5c7'), Move.from_uci('e8d7'), Move.from_uci('c7a8'), Move.from_uci('c6d5'), Move.from_uci('d1d5'), Move.from_uci('d7e8'), Move.from_uci('a8c7')]
+Analysis completed.
+
+Game 34 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F6A026F610>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r n Q . . b n .
+. . k . p . p .
+. . p N . . . .
+p . . . . . . .
+N p . P . B . .
+. . . . . . . .
+P P P . . P P P
+R . . . . R K .
+Number of legal moves: 45
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('g1f3'), Move.from_uci('e5e6'), Move.from_uci('d2d4'), Move.from_uci('h7h5'), Move.from_uci('f3e5'), Move.from_uci('c7c6'), Move.from_uci('e2c4'), Move.from_uci('e6f5'), Move.from_uci('c4f7'), Move.from_uci('e8d8'), Move.from_uci('f7g6'), Move.from_uci('f5e6'), Move.from_uci('e1g1'), Move.from_uci('b7b5'), Move.from_uci('e5f7'), Move.from_uci('d8d7'), Move.from_uci('f7h8'), Move.from_uci('b5b4'), Move.from_uci('c3a4'), Move.from_uci('d7d8'), Move.from_uci('h8f7'), Move.from_uci('d8c7'), Move.from_uci('c1f4'), Move.from_uci('c7d7'), Move.from_uci('d1h5'), Move.from_uci('d7e8'), Move.from_uci('f7g5'), Move.from_uci('e6g6'), Move.from_uci('h5g6'), Move.from_uci('e8d8'), Move.from_uci('g5f7'), Move.from_uci('d8e8'), Move.from_uci('f7d6'), Move.from_uci('e8d8'), Move.from_uci('g6e8'), Move.from_uci('d8c7'), Move.from_uci('e8c8')]
+Analysis completed.
+
+Game 35 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F6A1068850>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+N n b . . b n r
+. p . . p p p p
+. . . . . . . .
+p . . . N . . .
+. k . Q . . . .
+. . . . B . . .
+P P P . B P q P
+R . . . K . . R
+Number of legal moves: 25
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('c3b5'), Move.from_uci('c7c5'), Move.from_uci('g1f3'), Move.from_uci('e5f4'), Move.from_uci('d2d4'), Move.from_uci('f4g4'), Move.from_uci('b5c7'), Move.from_uci('e8d7'), Move.from_uci('c7a8'), Move.from_uci('g4g2'), Move.from_uci('d4c5'), Move.from_uci('d7c6'), Move.from_uci('f3e5'), Move.from_uci('c6c5'), Move.from_uci('c1e3'), Move.from_uci('c5b4'), Move.from_uci('d1d4')]
+Analysis completed.
+
+Game 36 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F6A0280510>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+. n b . k b n r
+. p N . p p . .
+. . . . . . . .
+p . . Q . . p p
+. . . . . . . .
+. . . . . N . .
+P P P . . P P P
+R . B . . R K .
+Number of legal moves: 27
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('g1f3'), Move.from_uci('e5e6'), Move.from_uci('d2d4'), Move.from_uci('h7h5'), Move.from_uci('e1g1'), Move.from_uci('e6c6'), Move.from_uci('e2b5'), Move.from_uci('g7g5'), Move.from_uci('d4d5'), Move.from_uci('c6b5'), Move.from_uci('c3b5'), Move.from_uci('c7c6'), Move.from_uci('b5c7'), Move.from_uci('e8d7'), Move.from_uci('c7a8'), Move.from_uci('c6d5'), Move.from_uci('d1d5'), Move.from_uci('d7e8'), Move.from_uci('a8c7')]
+Analysis completed.
+
+Game 37 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F6A02E7010>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r . . . . b n r
+. p . . p . . .
+n . . k . . . .
+B . . Q . . . p
+. . . P . N p .
+. . . . . . . .
+P P P . . P p P
+R . . . K . . R
+Number of legal moves: 35
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('c1f4'), Move.from_uci('h7h5'), Move.from_uci('f4c7'), Move.from_uci('b8a6'), Move.from_uci('c7a5'), Move.from_uci('g7g5'), Move.from_uci('g1f3'), Move.from_uci('g5g4'), Move.from_uci('f3e5'), Move.from_uci('f7f5'), Move.from_uci('e2b5'), Move.from_uci('c8d7'), Move.from_uci('b5d7'), Move.from_uci('e6d7'), Move.from_uci('e5d7'), Move.from_uci('e8d7'), Move.from_uci('d1e2'), Move.from_uci('f5f4'), Move.from_uci('c3d5'), Move.from_uci('f4f3'), Move.from_uci('e2b5'), Move.from_uci('d7d6'), Move.from_uci('d5f4'), Move.from_uci('f3g2'), Move.from_uci('b5d5')]
+Analysis completed.
+
+Game 38 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69F4EFFD0>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r . k . Q b n r
+. p . . p . . .
+n . . . . . . .
+B . . . . . . p
+. . . P . p p .
+. . N . . . . .
+P P P . . P P P
+R . . . K . . R
+Number of legal moves: 31
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('c1f4'), Move.from_uci('h7h5'), Move.from_uci('f4c7'), Move.from_uci('b8a6'), Move.from_uci('c7a5'), Move.from_uci('g7g5'), Move.from_uci('g1f3'), Move.from_uci('g5g4'), Move.from_uci('f3e5'), Move.from_uci('f7f5'), Move.from_uci('e2b5'), Move.from_uci('c8d7'), Move.from_uci('b5d7'), Move.from_uci('e6d7'), Move.from_uci('e5d7'), Move.from_uci('e8d7'), Move.from_uci('d1e2'), Move.from_uci('f5f4'), Move.from_uci('e2b5'), Move.from_uci('d7c8'), Move.from_uci('b5e8')]
+Analysis completed.
+
+Game 39 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69C946690>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r n b . k b n r
+. . N . p p p .
+. B p . . . . .
+p . . . . . . p
+. . P . . . . .
+. . . . . N . .
+q . . . B P P P
+. R . Q K . . R
+Number of legal moves: 31
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('g1f3'), Move.from_uci('h7h5'), Move.from_uci('d4d5'), Move.from_uci('e6b6'), Move.from_uci('c1e3'), Move.from_uci('b6b2'), Move.from_uci('c3b5'), Move.from_uci('e8d8'), Move.from_uci('e3d4'), Move.from_uci('b2b4'), Move.from_uci('c2c3'), Move.from_uci('b4b2'), Move.from_uci('a1b1'), Move.from_uci('b2a2'), Move.from_uci('c3c4'), Move.from_uci('c7c5'), Move.from_uci('d5c6'), Move.from_uci('b7c6'), Move.from_uci('d4b6'), Move.from_uci('d8e8'), Move.from_uci('b5c7')]
+Analysis completed.
+
+Game 40 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F697D7FF90>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r . b k . b n r
+. . . . p N . .
+n p . . . . . q
+p B . . . p . p
+. . . P . B . .
+. . N . . . . .
+P P P . . P P P
+R . . Q . R K .
+Number of legal moves: 25
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('g1f3'), Move.from_uci('e5e6'), Move.from_uci('d2d4'), Move.from_uci('h7h5'), Move.from_uci('c1f4'), Move.from_uci('f7f5'), Move.from_uci('f4c7'), Move.from_uci('b8a6'), Move.from_uci('c7f4'), Move.from_uci('b7b6'), Move.from_uci('e1g1'), Move.from_uci('g7g5'), Move.from_uci('e2b5'), Move.from_uci('e8d8'), Move.from_uci('f3g5'), Move.from_uci('e6h6'), Move.from_uci('g5f7')]
+Analysis completed.
+
+Game 41 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69C9DAE50>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r n Q . . b n .
+. . k . p . p .
+. . p N . . . .
+p . . . . . . .
+N p . P . B . .
+. . . . . . . .
+P P P . . P P P
+R . . . . R K .
+Number of legal moves: 45
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('g1f3'), Move.from_uci('e5e6'), Move.from_uci('d2d4'), Move.from_uci('h7h5'), Move.from_uci('f3e5'), Move.from_uci('c7c6'), Move.from_uci('e2c4'), Move.from_uci('e6f5'), Move.from_uci('c4f7'), Move.from_uci('e8d8'), Move.from_uci('f7g6'), Move.from_uci('f5e6'), Move.from_uci('e1g1'), Move.from_uci('b7b5'), Move.from_uci('e5f7'), Move.from_uci('d8d7'), Move.from_uci('f7h8'), Move.from_uci('b5b4'), Move.from_uci('c3a4'), Move.from_uci('d7d8'), Move.from_uci('h8f7'), Move.from_uci('d8c7'), Move.from_uci('c1f4'), Move.from_uci('c7d7'), Move.from_uci('d1h5'), Move.from_uci('d7e8'), Move.from_uci('f7g5'), Move.from_uci('e6g6'), Move.from_uci('h5g6'), Move.from_uci('e8d8'), Move.from_uci('g5f7'), Move.from_uci('d8e8'), Move.from_uci('f7d6'), Move.from_uci('e8d8'), Move.from_uci('g6e8'), Move.from_uci('d8c7'), Move.from_uci('e8c8')]
+Analysis completed.
+
+Game 42 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F697F9F8D0>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r n b . . . R .
+. p p . . . Q .
+. . . b . . . k
+p P . . . p p p
+. . B . . . . .
+P . . . . . . .
+. . . . . P P P
+R . . . . . K .
+Number of legal moves: 57
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('g1f3'), Move.from_uci('e5e6'), Move.from_uci('d2d4'), Move.from_uci('h7h5'), Move.from_uci('d4d5'), Move.from_uci('e6b6'), Move.from_uci('c1e3'), Move.from_uci('b6b2'), Move.from_uci('c3b5'), Move.from_uci('e8d8'), Move.from_uci('e3d4'), Move.from_uci('b2b4'), Move.from_uci('c2c3'), Move.from_uci('b4b2'), Move.from_uci('c3c4'), Move.from_uci('b2b4'), Move.from_uci('d4c3'), Move.from_uci('b4c5'), Move.from_uci('e1g1'), Move.from_uci('f7f5'), Move.from_uci('c3d4'), Move.from_uci('c5b4'), Move.from_uci('f3e5'), Move.from_uci('g8h6'), Move.from_uci('a2a3'), Move.from_uci('b4b5'), Move.from_uci('c4b5'), Move.from_uci('e7e6'), Move.from_uci('f1e1'), Move.from_uci('f8d6'), Move.from_uci('d5e6'), Move.from_uci('g7g5'), Move.from_uci('e5f7'), Move.from_uci('h6f7'), Move.from_uci('d4f6'), Move.from_uci('d8e8'), Move.from_uci('e6f7'), Move.from_uci('e8f7'), Move.from_uci('f6h8'), Move.from_uci('f7g8'), Move.from_uci('e2c4'), Move.from_uci('g8h8'), Move.from_uci('e1e8'), Move.from_uci('h8g7'), Move.from_uci('d1d4'), Move.from_uci('g7g6'), Move.from_uci('e8g8'), Move.from_uci('g6h6'), Move.from_uci('d4g7')]
+Analysis completed.
+
+Game 43 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69802D7D0>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+. n . . . . n r
+. . . . . Q . p
+. . p . . . . k
+p . . N . . . R
+. . . . . . . .
+. . N P . . . .
+P P P K . P . P
+. . . . . . . b
+Number of legal moves: 45
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('g1f3'), Move.from_uci('d5e4'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('b1c3'), Move.from_uci('e4c6'), Move.from_uci('e2b5'), Move.from_uci('g7g5'), Move.from_uci('b5c6'), Move.from_uci('b7c6'), Move.from_uci('f3g5'), Move.from_uci('c8f5'), Move.from_uci('d1h5'), Move.from_uci('f5g6'), Move.from_uci('h5h3'), Move.from_uci('e7e6'), Move.from_uci('d2d3'), Move.from_uci('f8h6'), Move.from_uci('g5e6'), Move.from_uci('h6c1'), Move.from_uci('e6c7'), Move.from_uci('e8e7'), Move.from_uci('a1c1'), Move.from_uci('a8a7'), Move.from_uci('h3e3'), Move.from_uci('g6e4'), Move.from_uci('e3c5'), Move.from_uci('e7d7'), Move.from_uci('c5a7'), Move.from_uci('e4g2'), Move.from_uci('e1d2'), Move.from_uci('g2h1'), Move.from_uci('c7d5'), Move.from_uci('d7e6'), Move.from_uci('c1e1'), Move.from_uci('e6f5'), Move.from_uci('a7f7'), Move.from_uci('f5g5'), Move.from_uci('e1e5'), Move.from_uci('g5h6'), Move.from_uci('e5h5')]
+Analysis completed.
+
+Game 44 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69D614210>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+. n b k Q b n N
+r p N . p . . .
+. q . . . . . .
+p . . P B p p .
+. . . . . . . .
+. . . . . . . .
+P . . . B P P P
+. . R . . R K .
+Number of legal moves: 51
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('g1f3'), Move.from_uci('h7h5'), Move.from_uci('d4d5'), Move.from_uci('e6b6'), Move.from_uci('c1e3'), Move.from_uci('b6b2'), Move.from_uci('c3b5'), Move.from_uci('e8d8'), Move.from_uci('e3d4'), Move.from_uci('b2b4'), Move.from_uci('c2c3'), Move.from_uci('b4b2'), Move.from_uci('c3c4'), Move.from_uci('b2b4'), Move.from_uci('d4c3'), Move.from_uci('b4c5'), Move.from_uci('e1g1'), Move.from_uci('f7f5'), Move.from_uci('f3e5'), Move.from_uci('d8e8'), Move.from_uci('e2h5'), Move.from_uci('e8d8'), Move.from_uci('e5f7'), Move.from_uci('d8d7'), Move.from_uci('f7e5'), Move.from_uci('d7d8'), Move.from_uci('e5f7'), Move.from_uci('d8d7'), Move.from_uci('f7h8'), Move.from_uci('c5c4'), Move.from_uci('h5e2'), Move.from_uci('c4c5'), Move.from_uci('c3e5'), Move.from_uci('g7g5'), Move.from_uci('a1c1'), Move.from_uci('c5b6'), Move.from_uci('b5c7'), Move.from_uci('a8a7'), Move.from_uci('d1a4'), Move.from_uci('d7d8'), Move.from_uci('a4e8')]
+Analysis completed.
+
+Game 45 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69C971450>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r . b k . b n r
+. . . . p N . .
+n p . . . . . q
+p B . . . p . p
+. . . P . B . .
+. . N . . . . .
+P P P . . P P P
+R . . Q . R K .
+Number of legal moves: 25
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('c1f4'), Move.from_uci('h7h5'), Move.from_uci('f4c7'), Move.from_uci('b8a6'), Move.from_uci('c7f4'), Move.from_uci('f7f5'), Move.from_uci('g1f3'), Move.from_uci('b7b6'), Move.from_uci('e1g1'), Move.from_uci('g7g5'), Move.from_uci('e2b5'), Move.from_uci('e8d8'), Move.from_uci('f3g5'), Move.from_uci('e6h6'), Move.from_uci('g5f7')]
+Analysis completed.
+
+Game 46 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69AB55C90>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r n b . k b n r
+. p p . p . . .
+q . P . N . B .
+p N . P . p . .
+. . . . . . . .
+. . B . . . . .
+P . . . . P P P
+R . . Q . R K .
+Number of legal moves: 39
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('g1f3'), Move.from_uci('e5e6'), Move.from_uci('d2d4'), Move.from_uci('h7h5'), Move.from_uci('d4d5'), Move.from_uci('e6b6'), Move.from_uci('c1e3'), Move.from_uci('b6b2'), Move.from_uci('c3b5'), Move.from_uci('e8d8'), Move.from_uci('e3d4'), Move.from_uci('b2b4'), Move.from_uci('c2c3'), Move.from_uci('b4b2'), Move.from_uci('c3c4'), Move.from_uci('b2b4'), Move.from_uci('d4c3'), Move.from_uci('b4c5'), Move.from_uci('e1g1'), Move.from_uci('f7f5'), Move.from_uci('f3g5'), Move.from_uci('d8d7'), Move.from_uci('g5e6'), Move.from_uci('c5b6'), Move.from_uci('c4c5'), Move.from_uci('b6a6'), Move.from_uci('c5c6'), Move.from_uci('d7e8'), Move.from_uci('e2h5'), Move.from_uci('g7g6'), Move.from_uci('h5g6')]
+Analysis completed.
+
+Game 47 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F697EE9990>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r n b . k . n N
+. p . . . . . .
+. . . Q . . . .
+p P . . . p p B
+. . . . . . . .
+P . . . . . . .
+. . . . . P P P
+R . . R . . K .
+Number of legal moves: 49
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('g1f3'), Move.from_uci('h7h5'), Move.from_uci('d4d5'), Move.from_uci('e6b6'), Move.from_uci('c1e3'), Move.from_uci('b6b2'), Move.from_uci('c3b5'), Move.from_uci('e8d8'), Move.from_uci('e3d4'), Move.from_uci('b2b4'), Move.from_uci('c2c3'), Move.from_uci('b4b2'), Move.from_uci('c3c4'), Move.from_uci('b2b4'), Move.from_uci('d4c3'), Move.from_uci('b4c5'), Move.from_uci('e1g1'), Move.from_uci('f7f5'), Move.from_uci('c3d4'), Move.from_uci('c5b4'), Move.from_uci('a2a3'), Move.from_uci('b4b5'), Move.from_uci('c4b5'), Move.from_uci('e7e6'), Move.from_uci('f3g5'), Move.from_uci('e6d5'), Move.from_uci('g5f7'), Move.from_uci('d8d7'), Move.from_uci('f7h8'), Move.from_uci('c7c5'), Move.from_uci('d4c5'), Move.from_uci('f8c5'), Move.from_uci('d1d5'), Move.from_uci('c5d6'), Move.from_uci('f1d1'), Move.from_uci('g7g5'), Move.from_uci('d5d6'), Move.from_uci('d7e8'), Move.from_uci('e2h5')]
+Analysis completed.
+
+Game 48 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F69CA876D0>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r n b Q k b n r
+. . . . p p p .
+. B p . . . . .
+p N . . . . . p
+. . P . . . . .
+. . . . . N . .
+q . . . B P P P
+. R . . K . . R
+Number of legal moves: 31
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('g1f3'), Move.from_uci('h7h5'), Move.from_uci('d4d5'), Move.from_uci('e6b6'), Move.from_uci('c1e3'), Move.from_uci('b6b2'), Move.from_uci('c3b5'), Move.from_uci('e8d8'), Move.from_uci('e3d4'), Move.from_uci('b2b4'), Move.from_uci('c2c3'), Move.from_uci('b4b2'), Move.from_uci('a1b1'), Move.from_uci('b2a2'), Move.from_uci('c3c4'), Move.from_uci('c7c5'), Move.from_uci('d5c6'), Move.from_uci('b7c6'), Move.from_uci('d4b6'), Move.from_uci('d8e8'), Move.from_uci('d1d8')]
+Analysis completed.
+
+Game 49 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F6A034A9D0>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r . k . Q b n r
+. p . . p . . .
+n . . . . . . .
+B . . . . . . p
+. . . P . p p .
+. . N . . . . .
+P P P . . P P P
+R . . . K . . R
+Number of legal moves: 31
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('c1f4'), Move.from_uci('h7h5'), Move.from_uci('f4c7'), Move.from_uci('b8a6'), Move.from_uci('c7a5'), Move.from_uci('g7g5'), Move.from_uci('g1f3'), Move.from_uci('g5g4'), Move.from_uci('f3e5'), Move.from_uci('f7f5'), Move.from_uci('e2b5'), Move.from_uci('c8d7'), Move.from_uci('b5d7'), Move.from_uci('e6d7'), Move.from_uci('e5d7'), Move.from_uci('e8d7'), Move.from_uci('d1e2'), Move.from_uci('f5f4'), Move.from_uci('e2b5'), Move.from_uci('d7c8'), Move.from_uci('b5e8')]
+Analysis completed.
+
+Game 50 --------------------------
+Analysis of stockfish <chess.engine.SimpleAnalysisResult object at 0x000001F6A10B2690>
+Outcome(termination=<Termination.CHECKMATE: 1>, winner=True)
+r n b . . b n .
+. p Q k p . . .
+. . . . . . B .
+p P . P . p N .
+. . . r . . . .
+P . . . . . . .
+. . . . . P P P
+. . R . . R K .
+Number of legal moves: 61
+move stack:  [Move.from_uci('e2e4'), Move.from_uci('d7d5'), Move.from_uci('e4d5'), Move.from_uci('d8d5'), Move.from_uci('b1c3'), Move.from_uci('d5e5'), Move.from_uci('f1e2'), Move.from_uci('a7a5'), Move.from_uci('d2d4'), Move.from_uci('e5e6'), Move.from_uci('g1f3'), Move.from_uci('h7h5'), Move.from_uci('d4d5'), Move.from_uci('e6b6'), Move.from_uci('c1e3'), Move.from_uci('b6b2'), Move.from_uci('c3b5'), Move.from_uci('e8d8'), Move.from_uci('e3d4'), Move.from_uci('b2b4'), Move.from_uci('c2c3'), Move.from_uci('b4b2'), Move.from_uci('c3c4'), Move.from_uci('b2b4'), Move.from_uci('d4c3'), Move.from_uci('b4c5'), Move.from_uci('c3d4'), Move.from_uci('c5b4'), Move.from_uci('d4c3'), Move.from_uci('b4c5'), Move.from_uci('e1g1'), Move.from_uci('f7f5'), Move.from_uci('c3d4'), Move.from_uci('c5b4'), Move.from_uci('f3g5'), Move.from_uci('d8d7'), Move.from_uci('g5f7'), Move.from_uci('h8h7'), Move.from_uci('f7e5'), Move.from_uci('d7d8'), Move.from_uci('e5f7'), Move.from_uci('d8e8'), Move.from_uci('f7e5'), Move.from_uci('b8a6'), Move.from_uci('a2a3'), Move.from_uci('b4b5'), Move.from_uci('c4b5'), Move.from_uci('a6b8'), Move.from_uci('e2h5'), Move.from_uci('e8d8'), Move.from_uci('e5f7'), Move.from_uci('d8e8'), Move.from_uci('f7g5'), Move.from_uci('g7g6'), Move.from_uci('h5g6'), Move.from_uci('e8d7'), Move.from_uci('a1c1'), Move.from_uci('h7h4'), Move.from_uci('d1c2'), Move.from_uci('h4d4'), Move.from_uci('c2c7')]
+Analysis completed.
+
+---------------------------------
+Results after 50 games:
+Wins for White: 50
+Wins for Black: 0
+Total moves for each game: [49, 31, 57, 31, 33, 27, 51, 27, 31, 51, 47, 39, 35, 51, 31, 31, 29, 35, 25, 51, 47, 37, 81, 43, 31, 49, 31, 45, 31, 27, 53, 35, 21, 45, 25, 27, 35, 31, 31, 25, 45, 57, 45, 51, 25, 39, 49, 31, 31, 61]
+Average moves per game: 38.92

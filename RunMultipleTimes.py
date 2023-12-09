@@ -1,12 +1,14 @@
 import chess
-
-from ChessBotMethods import *
+from StockfishVSbot import *  # Assuming you have a module named StockfishVSbot with a function 'main'
 import matplotlib.pyplot as plt
-import chess
+
+'''
+This is the class which will run stockfish vs bot multiple times and analyze how many times did Stockfish win, how many times bot win and plots game numbers vs number of moves per game.
+'''
 def run_multiple_games(num_games):
-    total_moves_list = []
-    wins_white = 0
-    wins_black = 0
+    total_moves_list = []  # To store the total moves for each game
+    wins_white = 0  # Counter for wins by White
+    wins_black = 0  # Counter for wins by Black
 
     for i in range(num_games):
         board = chess.Board()
@@ -14,11 +16,11 @@ def run_multiple_games(num_games):
         board.reset()  # Reset the board for each game
 
         # Decide which color the player will control randomly
-        winner, total_moves = main(board, False, i+1) # black is minmax and white is stockfish or human
+        winner, total_moves = main(board, False, i+1)  # Black is Minimax and White is Stockfish or human
 
         if board.outcome():
             total_moves_list.append(total_moves)
-            if  winner == chess.WHITE:
+            if winner == chess.WHITE:
                 wins_white += 1
             elif winner == chess.BLACK:
                 wins_black += 1
@@ -35,11 +37,8 @@ def run_multiple_games(num_games):
     plt.xlabel("Game Number")
     plt.ylabel("Total Moves")
     plt.title(f"Total Moves in Each Game")
-    plt.show()
-    directory_path = 'screenshots of 50 games/'
-    file_name = f'overall50game.png'
-    file_path = directory_path + file_name
-    plt.savefig(file_path)
+    plt.savefig("screenshots/numberof_moves_plot.png")  # Save the plot as an image
+    plt.show()  # Display the plot
 
 if __name__ == "__main__":
     num_games_to_play = 50
