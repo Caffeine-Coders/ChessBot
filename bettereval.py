@@ -100,6 +100,10 @@ deathscoring= {'p': 10,
           'Q': -90,
           'K': -100,
           }
+
+
+
+
 def getvalueof_piece(piece, x, y):
     if piece == "P":
         return 10 + Wpawneval[y][x]
@@ -122,9 +126,10 @@ def getvalueof_piece(piece, x, y):
     elif piece == "q":
         return -90 + Queeneval[y][x]
     elif piece == "K":
-        return 900 + Wkingeval[y][x]
+        return 100 + Wkingeval[y][x]
     elif piece == "k":
-        return -900 + Bkingeval[y][x]
+        return -100 + Bkingeval[y][x]
+
 
 def fen_to_board(fen):
     board = {}
@@ -142,13 +147,30 @@ def fen_to_board(fen):
 
     return board
 
+def evalboard_colorbased(BOARD, side):
+    score = 0
+    pieces_and_positions = fen_to_board(BOARD.fen())
+
+    for piece, positions in pieces_and_positions.items():
+        if side == 'white' and piece.isupper():
+            for position in positions:
+                value = getvalueof_piece(piece, boardmarkings[position[0]] - 1, int(position[-1]) - 1)
+                # print(f"Piece: {piece}, Position: {position}, Value: {value}")
+                score += value
+        elif side == 'black' and piece.islower():
+            for position in positions:
+                value = getvalueof_piece(piece, boardmarkings[position[0]] - 1, int(position[-1]) - 1)
+                # print(f"Piece: {piece}, Position: {position}, Value: {value}")
+                score += value
+
+    return score
+
 def evalboard(BOARD):
     score = 0;
     piecesandpositions = fen_to_board(BOARD.fen())
 
     for everykey in piecesandpositions:
         for everyposition in piecesandpositions[everykey]:
-            # print(boardmarkings[everyposition[0]],everyposition[-1], everykey)
             score += getvalueof_piece(everykey, boardmarkings[everyposition[0]]-1, int(everyposition[-1])-1)
 
     return score
