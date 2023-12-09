@@ -70,4 +70,4 @@ Stockfish vs Bot game:
 - please checkout out ppt of the project at : https://tinyurl.com/535project
 
 ## Contributors
-[<img src="https://github.com/{{ contributor }}.png" width="60px;"/><br /><sub><ahref="https://github.com/{{ contributor }}">{{ contributor }}</a></sub>](https://github.com/{{ contributor }}/{{ repository }}
+[<img src="https://github.com/{{ anudeep-17 }}.png" width="60px;"/><br /><sub><ahref="https://github.com/{{ anudeep-17 }}">{{ anudeep-17 }}</a></sub>](https://github.com/{{ anudeep-17 }}/{{ ChessBot }}
