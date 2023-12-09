@@ -50,7 +50,9 @@ lines of the code.
 ## Result
 Stockfish vs Bot game:
 - Move based score evaluation for both stockfish [green .] and bot [red X]
+
 <img src = "screenshots/game_0_plot.png"/>
+
 - 50 concecute games later, graph of each game vs number of total moves per each game 
    ```bash
    max number of moves = 81
