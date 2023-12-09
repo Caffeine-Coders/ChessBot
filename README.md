@@ -48,8 +48,11 @@ lines of the code.
    python StockfishVSbot.py
 ## Limitations of RL
 Alphago Zero:
+-
 Q learning with reward based on final game result and a random opponent:
+-
 Q learning with reward function, and a specific opponent:
+-
 
 ## Result
 Stockfish vs Bot game:
