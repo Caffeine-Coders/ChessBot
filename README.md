@@ -46,7 +46,7 @@ lines of the code.
 - if you want to run it through terminal
   ```bash
    python StockfishVSbot.py
-## Limitations of RL
+## Limitations of RL making chess bot
 Alphago Zero:
 - To implement Alphago Zero, we are lacking the computational power. Because, this algorithm self plays from both the sides and learn from each move, It will take months to train the basic model to beat the level 3 minimax.
 
