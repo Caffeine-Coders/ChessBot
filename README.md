@@ -48,7 +48,19 @@ lines of the code.
    python StockfishVSbot.py
 
 ## Result
+Stockfish vs Bot game:
+- Move based score evaluation for both stockfish [green .] and bot [red X]
+-- <a href= ""></a>
+- 50 concecute games later, graph of each game vs number of total moves per each game 
+```bash
+max number of moves = 81
+minimum number of moves = 21
+Average number of moves over 50 games = 38.92 
 
-## PPT regarsing project
+-- <a href= ""></a>
+
+## PPT explanation of project
+
+- please checkout out ppt of the project at : https://tinyurl.com/535project
 
 # conculsion
