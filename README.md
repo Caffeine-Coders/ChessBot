@@ -20,3 +20,13 @@ Make sure you have Python installed on your system. Additionally, you'll need to
 
    ```bash
    pip install pygame
+
+3. **Install Python-Chess:**
+   ```bash
+   pip install python-chess
+4. **Install StockFish:**
+   ```bash
+   https://stockfishchess.org/download/
+   # we use windows OS and have installed the installed windows version of stockfish to use in StockfishVSbot.py
+
+   
