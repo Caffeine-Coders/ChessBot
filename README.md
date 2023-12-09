@@ -52,6 +52,11 @@ Stockfish vs Bot game:
 - Move based score evaluation for both stockfish [green .] and bot [red X]
 
 <img src = "screenshots/game_0_plot.png"/>
+  
+   ```bash
+   So as we see after certain point of the game we see a huge spike in 
+   difference of score between players showing a bad move made by Min max bot.
+
 
 - 50 concecute games later, graph of each game vs number of total moves per each game 
    ```bash
