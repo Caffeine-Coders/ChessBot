@@ -56,7 +56,17 @@ Q learning with reward based on final game result and a random opponent:
 - Our bot still couldn't come up with a better strategy than MinMax.
 
 Q learning with reward function, and a specific opponent:
--
+- Multiple strategies were engaged to reward the bot, like capture based reward, and overall game based reward. 
+- Here the opponent was engaged on a specific target, like Greedy choice, first legal move as choice and random choice.
+- Capture based reward: 
+- - Game ends after 25 moves
+- - Maximum captures, max reward. 
+- - Uses Q Learning as technique.
+- Game based:
+- - Plays general rule based chess and learns from it.
+- - Uses Monte carlo search 
+- It was learning forever…….!
+
 
 ## Result
 Stockfish vs Bot game:
