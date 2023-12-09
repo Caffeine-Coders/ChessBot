@@ -5,6 +5,7 @@ import numpy as np
 from EvaluationFunctions import *
 import chess.engine
 from BetterEvaluationFunction import *
+from Stockfish_FilePath import * 
 
 # after installing required packages.
 import pygame
@@ -131,8 +132,7 @@ def main(board, agent_color, gamenumber):
     pygame.init()
 
     # Initialize chess engine (Stockfish)
-    engine = chess.engine.SimpleEngine.popen_uci(
-        "C:\\Users\\anude\\Downloads\\stockfish-windows-x86-64-avx2\\stockfish\\stockfish-windows-x86-64-avx2.exe")
+    engine = chess.engine.SimpleEngine.popen_uci(Stockfish_FilePath)
 
     analysis = engine.analysis(chess.Board(), chess.engine.Limit(depth=30))
     print("Analysis of stockfish", analysis)
