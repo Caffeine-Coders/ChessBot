@@ -132,7 +132,7 @@ def main(board, agent_color, gamenumber):
     pygame.init()
 
     # Initialize chess engine (Stockfish)
-    engine = chess.engine.SimpleEngine.popen_uci(Stockfish_FilePath)
+    engine = chess.engine.SimpleEngine.popen_uci(StockFish_FilePath)
 
     analysis = engine.analysis(chess.Board(), chess.engine.Limit(depth=30))
     print("Analysis of stockfish", analysis)
