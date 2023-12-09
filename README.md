@@ -71,5 +71,5 @@ Stockfish vs Bot game:
 
 ## Contributors
 [![](https://github.com/anudeep-17.png?size=50)](https://github.com/anudeep-17)
-[![](https://github.com/dheerajnani7.png?size=50)](https://github.com/dheerajnani7)
+[![](https://github.com/dheerajnani7.png?size=10)](https://github.com/dheerajnani7)
 [![](https://github.com/ForumShah8.png?size=50)](https://github.com/ForumShah8)
