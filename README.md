@@ -65,11 +65,10 @@ Stockfish vs Bot game:
    
 <img src = "screenshots/numberof_moves_plot.png"/>
 
-## PPT explanation of project
+## PPT explanation of projectu
 
 - please checkout out ppt of the project at : https://tinyurl.com/535project
 
 ## Contributors
 [![](https://github.com/anudeep-17.png?size=50)](https://github.com/anudeep-17)
-[![](https://github.com/dheerajnani7.png?size=10)](https://github.com/dheerajnani7)
 [![](https://github.com/ForumShah8.png?size=50)](https://github.com/ForumShah8)
