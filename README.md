@@ -46,6 +46,10 @@ lines of the code.
 - if you want to run it through terminal
   ```bash
    python StockfishVSbot.py
+## Limitations of RL
+Alphago Zero:
+Q learning with reward based on final game result and a random opponent:
+Q learning with reward function, and a specific opponent:
 
 ## Result
 Stockfish vs Bot game:
@@ -64,7 +68,6 @@ Stockfish vs Bot game:
    Average number of moves over 50 games = 38.92 
    
 <img src = "screenshots/numberof_moves_plot.png"/>
-
 ## PPT explanation of project
 
 - please checkout out ppt of the project at : https://tinyurl.com/535project
