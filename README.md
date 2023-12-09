@@ -41,7 +41,7 @@ lines of the code.
 Stockfish vs bot:
 - initially navigate to StockfishVSbot.py and uncomment the last two
 lines of the code.
-- also navigate to Stockfish_FilePath.py and update your stockfish excecutable file path.
+- also navigate to <b>Stockfish_FilePath.py</b> and update your stockfish excecutable file path.
 - if you are using it in IDE [pycharm], you can directly run the program and enjoy watching the game between stockfish and MIN - MAX.
 - if you want to run it through terminal
   ```bash
