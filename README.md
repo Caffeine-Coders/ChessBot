@@ -69,4 +69,7 @@ Stockfish vs Bot game:
 
 - please checkout out ppt of the project at : https://tinyurl.com/535project
 
-# conculsion
+# Contributors
+<a href="https://github.com/OWNER/REPO/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=OWNER/REPO" />
+</a>
