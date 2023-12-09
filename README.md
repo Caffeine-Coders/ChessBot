@@ -65,7 +65,7 @@ Stockfish vs Bot game:
    
 <img src = "screenshots/numberof_moves_plot.png"/>
 
-## PPT explanation of projectu
+## PPT explanation of project
 
 - please checkout out ppt of the project at : https://tinyurl.com/535project
 
