@@ -50,14 +50,15 @@ lines of the code.
 ## Result
 Stockfish vs Bot game:
 - Move based score evaluation for both stockfish [green .] and bot [red X]
--- <a href= ""></a>
+<a href= ""></a>
 - 50 concecute games later, graph of each game vs number of total moves per each game 
 ```bash
 max number of moves = 81
 minimum number of moves = 21
 Average number of moves over 50 games = 38.92 
+-
 
--- <a href= ""></a>
+<a href= "screenshots/game_0_plot.png"></a>
 
 ## PPT explanation of project
 
