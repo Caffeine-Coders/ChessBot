@@ -1,4 +1,4 @@
-# Chess AI -- Still Naive Bot
+# Chess AI - Still Naive Bot
 
 This project implements a simple chess AI using the Min-Max algorithm with evaluation functions. The game can be played in different modes, including human vs bot and bot vs bot.
 
