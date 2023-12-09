@@ -27,7 +27,7 @@ Make sure you have Python installed on your system. Additionally, you'll need to
 4. **Install StockFish:**
    ```bash
    https://stockfishchess.org/download/
-   # we use windows OS and have installed the installed windows version of stockfish to use in StockfishVSbot.py
+   # we use windows OS and have installed the installed windows version of stockfish to use in Stockfish_FilePath.py
 
 ## How to Run
 Human vs bot:
