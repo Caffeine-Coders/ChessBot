@@ -69,7 +69,7 @@ lines of the code.
 
 
 ## Result
-**Stockfish vs Bot game:**
+<b>Stockfish vs Bot game:</b>
 - Move based score evaluation for both stockfish [green .] and bot [red X], please navigate to screenshots or TerminalLog_after50games.txt to view all game details.
 
 <img src = "screenshots/game_0_plot.png"/>
@@ -85,6 +85,7 @@ lines of the code.
    Average number of moves over 50 games = 38.92 
    
 <img src = "screenshots/numberof_moves_plot.png"/>
+
 ## PPT explanation of project
 
 - please checkout out ppt of the project at : https://tinyurl.com/535project
