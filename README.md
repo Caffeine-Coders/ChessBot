@@ -70,7 +70,7 @@ Q learning with reward function, and a specific opponent:
 
 ## Result
 Stockfish vs Bot game:
-- Move based score evaluation for both stockfish [green .] and bot [red X]
+- Move based score evaluation for both stockfish [green .] and bot [red X], please navigate to screenshots or TerminalLog_after50games.txt to view all game details.
 
 <img src = "screenshots/game_0_plot.png"/>
  
@@ -78,7 +78,7 @@ Stockfish vs Bot game:
       difference of score between players showing a bad move made by Min max bot.
        
 
-- 50 concecute games later, graph of each game vs number of total moves per each game 
+- 50 concecute games later, graph of each game vs number of total moves per each game
    ```bash
    max number of moves = 81
    minimum number of moves = 21
