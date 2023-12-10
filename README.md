@@ -30,7 +30,7 @@ Make sure you have Python installed on your system. Additionally, you'll need to
    # we use windows OS and have installed the installed windows version of stockfish to use in Stockfish_FilePath.py
 
 ## How to Run
-Human vs bot:
+<b>Human vs bot:</b>
 - initially navigate to HumanVSbot.py and uncomment the last two
 lines of the code.
 - if you are using it in IDE [pycharm], you can directly run the program and enjoy playing the game.
@@ -38,7 +38,7 @@ lines of the code.
    ```bash
    python HumanVSbot.py
 
-Stockfish vs bot:
+<b>Stockfish vs bot:</b>
 - initially navigate to StockfishVSbot.py and uncomment the last two
 lines of the code.
 - also navigate to <b>Stockfish_FilePath.py</b> and update your stockfish excecutable file path.
@@ -47,29 +47,29 @@ lines of the code.
   ```bash
    python StockfishVSbot.py
 ## Limitations of RL making chess bot
-Alphago Zero:
+<b>Alphago Zero:</b>
 - To implement Alphago Zero, we are lacking the computational power. Because, this algorithm self plays from both the sides and learn from each move, It will take months to train the basic model to beat the level 3 minimax.
 
-Q learning with reward based on final game result and a random opponent:
+<b>Q learning with reward based on final game result and a random opponent:</b>
 - What we did try was to implement a Q-Learning model for almost 50000 iterations, where in reward was presented basing on the result of the game.
 - Opponent was a random agent, picking up random move out of all legal moves.
 - Our bot still couldn't come up with a better strategy than MinMax.
 
-Q learning with reward function, and a specific opponent:
+<b>Q learning with reward function, and a specific opponent:</b>
 - Multiple strategies were engaged to reward the bot, like capture based reward, and overall game based reward. 
 - Here the opponent was engaged on a specific target, like Greedy choice, first legal move as choice and random choice.
-- Capture based reward: 
-  - Game ends after 25 moves
-  - Maximum captures, max reward. 
-  - Uses Q Learning as technique.
-- Game based:
-  - Plays general rule based chess and learns from it.
-  - Uses Monte carlo search 
-- It was learning forever…….!
+   - Capture based reward: 
+     - Game ends after 25 moves
+     - Maximum captures, max reward. 
+     - Uses Q Learning as technique.
+   - Game based:
+     - Plays general rule based chess and learns from it.
+     - Uses Monte carlo search 
+     - It was learning forever…….!
 
 
 ## Result
-Stockfish vs Bot game:
+**Stockfish vs Bot game:**
 - Move based score evaluation for both stockfish [green .] and bot [red X], please navigate to screenshots or TerminalLog_after50games.txt to view all game details.
 
 <img src = "screenshots/game_0_plot.png"/>
